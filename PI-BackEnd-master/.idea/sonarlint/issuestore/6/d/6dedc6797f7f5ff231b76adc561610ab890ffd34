@@ -1,0 +1,7 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ýà¾w
+k	java:S116 "QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÄí·øÿÿÿÿ
+X
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄÞ
+X
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄÞ

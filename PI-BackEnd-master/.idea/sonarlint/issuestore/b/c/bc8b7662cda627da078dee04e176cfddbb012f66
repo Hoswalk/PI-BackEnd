@@ -1,7 +1,7 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±‰äšûÿÿÿÿ8Í´áİ—2J$ec30cc26-6cd2-4cca-86b4-8d11e9b87ec5
-“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8×´áİ—2J$434ebb25-69e6-4df9-9d14-c1826d8460f7
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±‰äšûÿÿÿÿ8Í´áİ—2J$630f56f1-e54a-4886-953c-b3cd8a76f0fe
+“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8×´áİ—2J$ddb0cb2d-5bf7-40ed-ab64-75fbed190be5
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ø´áİ—2J$32e1b3a1-639e-4c88-816c-4abeef808485
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ø´áİ—2J$0248b852-025b-4d53-8129-1db3faff4939
 š
-java:S1128"WRemove this unused import 'com.PI.Back.PIBackend.exceptions.ResourceNotFoundException'.(êÍ€›8ÿ€îİ—2J$df90f466-103b-4a3a-8cb4-eea15d5504bc
+java:S1128"WRemove this unused import 'com.PI.Back.PIBackend.exceptions.ResourceNotFoundException'.(êÍ€›8ÿ€îİ—2J$da72c52c-ed8c-4652-9047-5fd4ae9d2b99

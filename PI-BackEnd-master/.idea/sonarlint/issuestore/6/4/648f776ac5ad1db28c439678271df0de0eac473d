@@ -1,0 +1,9 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”ÀJ$849f4cf1-97cb-44da-acfe-ea41311275bc
+“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÂÖé8«¤×‡™2J$1e8e4f67-27e8-45f1-aa56-1cd0a544ad5d
+|
+java:S3416"9Update this logger to use "UsuarioAdminController.class".(ßÂÖé8‡î×‡™2J$554e992a-e0da-4646-a2bd-83dbeef9e1da
+v
+java:S6837"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼8®¤×‡™2J$579ccd40-19df-4091-9254-181b316d9f6d
+v
+java:S6837"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼8®¤×‡™2J$8592be4a-331f-4ba0-9188-c18260336d0d

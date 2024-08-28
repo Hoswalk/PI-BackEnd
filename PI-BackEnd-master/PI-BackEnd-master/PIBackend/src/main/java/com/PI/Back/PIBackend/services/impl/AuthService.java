@@ -1,4 +1,4 @@
-package com.PI.Back.PIBackend.services;
+package com.PI.Back.PIBackend.services.impl;
 
 import com.PI.Back.PIBackend.auth.AuthResponse;
 import com.PI.Back.PIBackend.auth.Request.LoginRequest;
@@ -45,7 +45,7 @@ public class AuthService {
                 .nombre(request.getNombre())
                 .apellido(request.getApellido())
                 .email(request.getEmail())
-                .role(Role.USUARIO)
+                .role(Role.ADMIN)
                 .password(passwordEncoder.encode(request.getPassword()))  // Encriptar la contraseña
                 .build();
 

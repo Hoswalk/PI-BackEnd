@@ -1,9 +1,9 @@
 package com.PI.Back.PIBackend.controllers;
 
 import com.PI.Back.PIBackend.auth.AuthResponse;
-import com.PI.Back.PIBackend.services.AuthService;
 import com.PI.Back.PIBackend.auth.Request.LoginRequest;
 import com.PI.Back.PIBackend.auth.Request.RegisterRequest;
+import com.PI.Back.PIBackend.services.impl.AuthService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

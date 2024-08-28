@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="149ea0bb-cda3-48ef-ab21-952854df8fb0" name="Changes" comment="" />
+    <list default="true" id="149ea0bb-cda3-48ef-ab21-952854df8fb0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f4ce8824534a625a17b2f0e2bc6d1c4d50a2a26" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f4ce8824534a625a17b2f0e2bc6d1c4d50a2a26" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae3740773b02e01dfd5e21aeb6df51cd844c5946" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae3740773b02e01dfd5e21aeb6df51cd844c5946" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c16583e9f9ea6c8581496ab0df24853759123a37" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c16583e9f9ea6c8581496ab0df24853759123a37" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,7 @@
     "Spring Boot.PiBackendApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Sistemax/Desktop/PI-BackEnd/PI-BackEnd-master/PI-BackEnd-master/PIBackend",
+    "last_opened_file_path": "C:/Users/edves/Downloads/PI-BackEnd/PI-BackEnd-master",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",

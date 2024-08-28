@@ -3,10 +3,14 @@ package com.PI.Back.PIBackend.dto.entrada;
 import jakarta.annotation.Nullable;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class UsuarioEntradaDto {
 
     @NotNull(message = "El nombre no puede ser nulo.")
@@ -39,16 +43,4 @@ public class UsuarioEntradaDto {
     private String direccion;
     @Nullable
     private String celular;
-
-    public UsuarioEntradaDto() {
-    }
-
-    public UsuarioEntradaDto(String nombre, String apellido, String email, String password, @Nullable String direccion, @Nullable String celular) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.email = email;
-        this.password = password;
-        this.direccion = direccion;
-        this.celular = celular;
-    }
 }

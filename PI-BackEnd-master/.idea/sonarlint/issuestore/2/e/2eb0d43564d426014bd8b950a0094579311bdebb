@@ -1,7 +1,11 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”À
-f	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÂÖé
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
-I
-java:S6837"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”ÀJ$cfa19310-abcd-4b92-ad02-945792684ce4
+Œ	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÂÖéJ$a4ed0339-b528-4021-a16f-ac38d7019d3b
+€
+java:S1128">Remove this unused import 'com.PI.Back.PIBackend.entity.Role'.(ñ˜š>8¯ëØ‡™2J$879b279b-2611-4903-a458-72a338dc4e70
+ƒ
+java:S1128"ARemove this unused import 'com.PI.Back.PIBackend.entity.Usuario'.(ì’Î!8¯ëØ‡™2J$cb64fdd5-9197-49ca-853d-7ff0534301d7
+›
+java:S1128	"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8´à‡™2J$9f5278e3-4d0a-45c2-8558-74e055bca9eb
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8°ëØ‡™2J$c2903e8b-b1c3-4313-9248-6b0532aebbe9

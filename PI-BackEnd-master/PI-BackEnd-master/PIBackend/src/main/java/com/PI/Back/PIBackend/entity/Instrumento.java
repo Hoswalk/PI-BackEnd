@@ -17,7 +17,7 @@ public class Instrumento {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String nombre;
-    private String tipo;
+    private String categoria;
     private String proovedor;
     private Double precioDriario;
     private int stock;
