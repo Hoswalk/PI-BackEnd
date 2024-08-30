@@ -55,6 +55,7 @@ public class UsuarioAdminController {
         return new ResponseEntity<>("Instrumento eliminado correctamente", HttpStatus.NO_CONTENT);
     }
 
+
     @PutMapping("/modificarRole/{email}/role")
     public ResponseEntity<?> asignarRole(@PathVariable String email, @RequestBody Role newRole) throws ResourceNotFoundException {
         adminService.asignarRole(email, newRole);
