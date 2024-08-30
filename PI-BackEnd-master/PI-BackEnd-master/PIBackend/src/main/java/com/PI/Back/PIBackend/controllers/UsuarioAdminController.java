@@ -21,6 +21,9 @@ public class UsuarioAdminController {
 
     private final AdminService adminService;
 
+
+    //INSTRUMENTOS
+
     @PostMapping("/instrumento/registrarInstrumento")
     public ResponseEntity<InstrumentoSalidaDto> registrarInstrumento(@RequestBody @Valid InstrumentoEntradaDto instrumento){
         return new ResponseEntity<>(adminService.registrarInstrumento(instrumento), HttpStatus.CREATED);
@@ -52,6 +55,8 @@ public class UsuarioAdminController {
         adminService.eliminarInstrumento(id);
         return new ResponseEntity<>("Instrumento eliminado correctamente", HttpStatus.NO_CONTENT);
     }
+
+    //USUARIO
 
     @PutMapping("/modificarRole/{email}/role")
     public ResponseEntity<?> asignarRole(@PathVariable String email, @RequestBody Role newRole) throws ResourceNotFoundException {

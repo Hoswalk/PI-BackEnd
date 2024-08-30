@@ -1,0 +1,8 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8ñ£ùÚ™2J$c24050fd-6577-4aad-9216-6494307c74a1
+“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8ø£ùÚ™2J$5a5b29a9-3f6a-473d-928c-6c2ca76b0e69
+~	java:S125'"<This block of commented-out lines of code should be removed.(©‘¡‰8ÉÀ‡Ü™2J$bd2efe3a-68ae-4eb0-a61d-4bfd43f73bd9
+p
+java:S24471"-Null is returned but a "Boolean" is expected.(¥¹ï8ş£ùÚ™2J$b616d9b3-c7f4-43fc-8ced-e7f2c9a16fb7
+m
+java:S1068"*Remove this unused "LOGGER" private field.(Ùöî8ÿ£ùÚ™2J$585a5150-20ee-46ef-8d6c-f48f5bf44ff4

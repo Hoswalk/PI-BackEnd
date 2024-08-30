@@ -20,7 +20,7 @@ public class Instrumento {
     private String categoria;
     private String proovedor;
     private Double precioDriario;
-    private int stock;
+    private Integer stock;
     private String imagen;
     private String detalle;
 

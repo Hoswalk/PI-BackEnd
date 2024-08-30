@@ -11,10 +11,6 @@ VPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/auth/AuthRespon
 PPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/entity/Role.java,f\0\f0374491f76cc3c3b62562e216a4c857ae3385d7
 É
 SPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/entity/Usuario.java,4\6\4618ad81f06211ed8bc2fc6a1d2735932e4204b8
-â
-YPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/AuthService.java,9\9\991eb66e6a7b8e57af54a96b8cda55b801cda6bc
-å
-\PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/UsuarioService.java,b\c\bc8b7662cda627da078dee04e176cfddbb012f66
 ë
 aPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/auth/Request/RegisterRequest.java,7\e\7eb0b0f31d1f7fdbc6d999a90b1927bb96e91966
 é
@@ -29,8 +25,6 @@ WPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/entity/Instrume
 aPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/repository/UsuarioRepository.java,a\e\ae2d6d273536451d73e94da3e0afcfc7963b3e8f
 ï
 ePI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/repository/InstrumentoRepository.java,5\f\5f62a98ff410adb833c15d06667dd329fecf1999
-ê
-`PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/InstrumentoService.java,5\b\5bc7ee319e20fe378f70f6151642799b627c743d
 í
 bPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/dto/entrada/UsuarioEntradaDto.java,3\8\382bda67ecfa970a99e4b3f53bd02e0bf05012d1
 ê
@@ -47,3 +41,15 @@ gPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/controllers/Usu
 aPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/IInstrumentoService.java,0\f\0feaa44f57c35eb0733917469597e874c683aa31
 è
 _PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/AdminService.java,6\d\6dedc6797f7f5ff231b76adc561610ab890ffd34
+ï
+ePI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/InstrumentoService.java,5\a\5a9c5fc0194a754f1e3e44da2369a88216429677
+ã
+[PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/IAdminService.java,c\1\c19bd309bcbb33e85a7a53739d60e1fcf39be53f
+ñ
+fPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/dto/entrada/InstrumentoEntradaDto.java,b\f\bf494162d1cbec6cc300649b89010fafbc78d3dd
+ç
+]PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/IUsuarioService.java,b\2\b26bf5fd371f724a807745daf8a7872d73e96d5d
+ë
+aPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/UsuarioService.java,3\b\3b3d2fe9207e6a8ec789e6fbb543a1130562d740
+Ñ
+TPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/entity/Alquiler.java,6\9\69893e914cb704661a26a788897641b1e4c651c0

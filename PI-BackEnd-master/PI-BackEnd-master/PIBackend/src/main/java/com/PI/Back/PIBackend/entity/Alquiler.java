@@ -1,7 +1,9 @@
 package com.PI.Back.PIBackend.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
@@ -9,6 +11,8 @@ import java.time.LocalDate;
 @Entity
 @Table(name = "ALQUILERES")
 @Getter @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Alquiler {
 
     @Id
@@ -26,16 +30,4 @@ public class Alquiler {
     private LocalDate fechaInicio;
     private LocalDate fechaFin;
     private Double precioTotal;
-
-    public Alquiler() {
-    }
-
-    public Alquiler(long id, Instrumento instrumento, Usuario usuario, LocalDate fechaInicio, LocalDate fechaFin, Double precioTotal) {
-        this.id = id;
-        this.instrumento = instrumento;
-        this.usuario = usuario;
-        this.fechaInicio = fechaInicio;
-        this.fechaFin = fechaFin;
-        this.precioTotal = precioTotal;
-    }
 }

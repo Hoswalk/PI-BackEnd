@@ -1,0 +1,5 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8ó‡÷Ó™2J$14455ab8-bcec-44fa-bca6-28f5a35ecc64
+˜	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÑùÁúÿÿÿÿ8ù‡÷Ó™2J$03eaa0ff-d117-4028-8516-27f32fc0e7db
+p
+java:S2447"-Null is returned but a "Boolean" is expected.(¥¹ï8ü‡÷Ó™2J$c3a377da-f7bf-4e58-8965-6adb69080362

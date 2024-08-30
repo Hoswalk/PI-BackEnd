@@ -16,8 +16,9 @@ public class InstrumentoService implements IInstrumentoService {
 
     private InstrumentoRepository instrumentoRepository;
 
-    private final ModelMapper modelMapper;
 
-
-
+    @Override
+    public Boolean actualizarEstado(Integer stock) {
+        return null;
+    }
 }
