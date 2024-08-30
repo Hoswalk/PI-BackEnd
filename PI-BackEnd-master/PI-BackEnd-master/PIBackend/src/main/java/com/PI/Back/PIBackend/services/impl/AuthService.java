@@ -54,7 +54,7 @@ public class AuthService {
 
         //Mandar mail al usuario (?)
 
-        
+
 
         return AuthResponse.builder()
                 .token(jwtService.getToken(usuario))
