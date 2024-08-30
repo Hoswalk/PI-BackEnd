@@ -1,13 +1,13 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”ÀJ$8a47dc7c-9cb3-402e-bd03-514e8256682d
-Œ	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÂÖéJ$5265c456-2a6c-4205-aa1f-6a2763d08ace
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”ÀJ$d17ce15f-9803-4545-88e4-383203f3f43a
+Œ	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÂÖéJ$1cb3e7f4-230f-44ad-bbb8-c22fdd0bf238
 ~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$b7198de9-e69c-46c8-97ff-fa2ab3e8fccd
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$d4b4f448-4140-4b95-99bd-749bcb6395e6
 m
-java:S3416"1Update this logger to use "AuthController.class".(ßÂÖéJ$6f73fc85-517b-42e9-9701-9260a2556daf
+java:S3416"1Update this logger to use "AuthController.class".(ßÂÖéJ$99630263-8413-4a09-a62b-c00eb0a6abda
 o
-java:S6837"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼J$139deb8d-9af8-424f-bff8-dab344af1bf5
+java:S6837"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼J$99315f3b-68bf-4807-bc14-698508d3ed5c
 o
-java:S6837!"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼J$39004693-0e87-49fb-a19f-063b56e32e0e
+java:S6837""3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼J$cf122702-ad74-4c5c-b009-9a1d5ff84abf
 f
-java:S1068"*Remove this unused "LOGGER" private field.(ßÂÖéJ$f9918a5c-030e-4434-917b-5e5269ee7a20
+java:S1068"*Remove this unused "LOGGER" private field.(ßÂÖéJ$11b93f6f-fa62-4950-b9ea-161694b464c4

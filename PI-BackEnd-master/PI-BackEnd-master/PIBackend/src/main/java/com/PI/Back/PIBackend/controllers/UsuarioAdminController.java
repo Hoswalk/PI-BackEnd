@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
+@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
 @RestController
 @RequestMapping("/api/admin")
 @RequiredArgsConstructor
@@ -55,6 +57,7 @@ public class UsuarioAdminController {
         adminService.eliminarInstrumento(id);
         return new ResponseEntity<>("Instrumento eliminado correctamente", HttpStatus.NO_CONTENT);
     }
+
 
     //USUARIO
 

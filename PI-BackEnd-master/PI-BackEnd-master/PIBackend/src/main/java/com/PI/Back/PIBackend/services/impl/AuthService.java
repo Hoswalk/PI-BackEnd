@@ -45,12 +45,16 @@ public class AuthService {
                 .nombre(request.getNombre())
                 .apellido(request.getApellido())
                 .email(request.getEmail())
-                .role(Role.ADMIN)
+                .role(Role.USUARIO)
                 .password(passwordEncoder.encode(request.getPassword()))  // Encriptar la contraseña
                 .build();
 
         // Guardar el usuario en la base de datos
         usuarioRepository.save(usuario);
+
+        //Mandar mail al usuario (?)
+
+        
 
         return AuthResponse.builder()
                 .token(jwtService.getToken(usuario))
