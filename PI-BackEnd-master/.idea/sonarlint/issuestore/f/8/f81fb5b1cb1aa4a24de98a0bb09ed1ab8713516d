@@ -9,3 +9,10 @@ java:S6837#"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼J$0d3c44d
 ‰
 java:S3457"AFormat specifiers should be used instead of string concatenation.(Íü„Ğÿÿÿÿÿ8ğé¨É›2J$0eb3b4be-cf9b-4279-8164-599e7146e3b4
 r	java:S106"+Replace this use of System.out by a logger.(Íü„Ğÿÿÿÿÿ8™³—È›2J$5557cafc-3f03-4a13-ae7e-02e47454c606
+q
+java:S1128"ORemove this unused import 'com.PI.Back.PIBackend.auth.Request.RegisterRequest'.(â¹åüÿÿÿÿ8üµÂĞ›2
+I
+java:S1128	"-Remove this unused import 'org.slf4j.Logger'.(íØ®68üµÂĞ›2
+Q
+java:S1128
+"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8üµÂĞ›2
