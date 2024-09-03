@@ -1,6 +1,5 @@
 package com.PI.Back.PIBackend.dto.entrada;
 
-import jakarta.annotation.Nullable;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
@@ -22,8 +21,8 @@ public class UsuarioEntradaDto {
 
     @NotNull(message = "El apellido no puede ser nulo.")
     @NotBlank(message = "Debe agregarse un apellido.")
-    @Size(min = 2, max = 20, message = "El apellido ingresado debe tener entre 2 y 20 caracteres.")
-    @Pattern(regexp = "^[A-Za-z]{2,20}$", message = "El nombre debe tener entre 3 y 20 letras y solo puede contener caracteres alfabéticos.")
+    @Size(min = 2, max = 40, message = "El apellido ingresado debe tener entre 2 y 20 caracteres.")
+    @Pattern(regexp = "^[A-Za-z]{2,20}(\\s[A-Za-z]{2,40})?$", message = "El apellido debe tener entre 2 y 40 letras por palabra y solo puede contener caracteres alfabéticos.")
     @Valid
     private String apellido;
 
@@ -39,8 +38,8 @@ public class UsuarioEntradaDto {
     )
     private String password;
 
-    @Nullable
-    private String direccion;
-    @Nullable
-    private String celular;
+    //@Nullable
+    //private String direccion;
+    //@Nullable
+    //private String celular;
 }

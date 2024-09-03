@@ -17,7 +17,7 @@ public class UsuarioSalidaDto {
     private String apellido;
 
     private String email;
-    private String direccion;
-    private String celular;
+    //private String direccion;
+    //private String celular;
 
 }

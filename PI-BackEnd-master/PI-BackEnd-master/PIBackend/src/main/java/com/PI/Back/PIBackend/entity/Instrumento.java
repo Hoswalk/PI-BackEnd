@@ -18,7 +18,6 @@ public class Instrumento {
     private long id;
     private String nombre;
     private String categoria;
-    private String proovedor;
     private Double precioDriario;
     private Integer stock;
     private String imagen;

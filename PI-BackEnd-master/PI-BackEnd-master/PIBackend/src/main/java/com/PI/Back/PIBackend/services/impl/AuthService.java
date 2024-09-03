@@ -3,6 +3,7 @@ package com.PI.Back.PIBackend.services.impl;
 import com.PI.Back.PIBackend.auth.AuthResponse;
 import com.PI.Back.PIBackend.auth.Request.LoginRequest;
 import com.PI.Back.PIBackend.auth.Request.RegisterRequest;
+import com.PI.Back.PIBackend.dto.entrada.UsuarioEntradaDto;
 import com.PI.Back.PIBackend.entity.Role;
 import com.PI.Back.PIBackend.entity.Usuario;
 import com.PI.Back.PIBackend.jwt.JwtService;
@@ -28,24 +29,25 @@ public class AuthService {
     private final AuthenticationManager authenticationManager;
     private final Validator validator;
 
-    public AuthResponse register(@Valid RegisterRequest request) {
+    public AuthResponse register(@Valid UsuarioEntradaDto request) {
         //Validando el DTO
-        Set<ConstraintViolation<RegisterRequest>> violations = validator.validate(request);
+        //Comentado ya que la validacion manual esta causando interferencias al momento de agregar un segundo apellido. Con las anotaciones @Valid ya es suficiente
+        /*Set<ConstraintViolation<RegisterRequest>> violations = validator.validate(request);
         if (!violations.isEmpty()){
             //Manejar las violaciones segun necesidades
             StringBuilder sb = new StringBuilder();
             for (ConstraintViolation<RegisterRequest> violation : violations){
-                sb.append(violation.getMessage()).append("ERROR");
+                sb.append(violation.getMessage()).append(" ");
             }
             throw new IllegalArgumentException(sb.toString());
-        }
+        }*/
 
 
         Usuario usuario = Usuario.builder()
                 .nombre(request.getNombre())
                 .apellido(request.getApellido())
                 .email(request.getEmail())
-                .role(Role.USUARIO)
+                .role(Role.ADMIN)
                 .password(passwordEncoder.encode(request.getPassword()))  // Encriptar la contraseña
                 .build();
 

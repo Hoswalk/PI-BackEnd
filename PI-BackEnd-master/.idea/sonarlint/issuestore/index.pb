@@ -53,3 +53,11 @@ fPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/dto/entrada/Ins
 aPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/UsuarioService.java,3\b\3b3d2fe9207e6a8ec789e6fbb543a1130562d740
 „
 TPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/entity/Alquiler.java,6\9\69893e914cb704661a26a788897641b1e4c651c0
+Ž
+^PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/AuthService.java,b\9\b95fb6261a2a873122db6d4abf8cbac08f799909
+”
+dPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/dto/salida/InstrumentoSalidaDto.java,0\d\0deef8835981e22867194c826d571e73bd5deca2
+…
+UPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/config/WebConfig.java,7\e\7e9ca27e3a56256ed1ff30b0861ac57959f96034
+Y
+)PI-BackEnd-master/PIBackend/PIBackend.iml,5\f\5f9fe56bda8f600949f786dad346f1b5d410ee63

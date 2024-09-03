@@ -1,0 +1,9 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ýà¾w8žŽéÈ›2J$a2555bb7-b0b9-4754-acf6-7fc4af023d19
+]	java:S125#"<This block of commented-out lines of code should be removed.(î·£úýÿÿÿÿ8§¼±É›2
+q
+java:S1128"ORemove this unused import 'com.PI.Back.PIBackend.auth.Request.RegisterRequest'.(žâ¹åüÿÿÿÿ8¬¼±É›2
+_
+java:S1128"CRemove this unused import 'jakarta.validation.ConstraintViolation'.(Â¢×)8­¼±É›2
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8­¼±É›2

@@ -1,4 +1,4 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©û¶‘J$f68f1d9e-9a28-4c9c-a0cd-87564b331b17
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©û¶‘J$6471862b-c1f7-4f3f-bdf5-69fac8383350
 ’
-java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õªËüÿÿÿÿJ$df46d28c-63b4-4618-a702-3a6c1d4d7b28
+java:S3008"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õªËüÿÿÿÿJ$f4583cac-b358-4bb2-a7f1-423fc6052660
