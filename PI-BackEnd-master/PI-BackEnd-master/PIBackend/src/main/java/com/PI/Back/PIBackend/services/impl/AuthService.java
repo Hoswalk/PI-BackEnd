@@ -47,7 +47,7 @@ public class AuthService {
                 .nombre(request.getNombre())
                 .apellido(request.getApellido())
                 .email(request.getEmail())
-                .role(Role.ADMIN)
+                .role(Role.USUARIO)
                 .password(passwordEncoder.encode(request.getPassword()))  // Encriptar la contraseña
                 .build();
 
