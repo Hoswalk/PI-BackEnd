@@ -43,8 +43,6 @@ public class AdminService implements IAdminService {
     @Transactional
     @Secured("ROLE_ADMIN")
     public InstrumentoSalidaDto registrarInstrumento(InstrumentoEntradaDto instrumento) {
-        //Logueo
-        LOGGER.info("OdontologoEntradaDto: {}", JsonPrinter.toString(instrumento));
         Instrumento instrumentoGuardado = instrumentoRepository.save(modelMapper.map(instrumento, Instrumento.class));
         InstrumentoSalidaDto instrumentoSalidaDto = modelMapper.map(instrumentoGuardado, InstrumentoSalidaDto.class);
         //Log de la salida
