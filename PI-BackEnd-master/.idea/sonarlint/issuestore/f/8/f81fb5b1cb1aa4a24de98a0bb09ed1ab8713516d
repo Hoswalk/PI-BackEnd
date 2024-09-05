@@ -1,14 +1,14 @@
 
 •	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”ÀJ$be03ad2c-2823-45bd-8575-51cdf70ace75
 ~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$cfcd07f4-e9a2-4a1c-8074-67e4705f6be0
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞJ$cfcd07f4-e9a2-4a1c-8074-67e4705f6be0
 o
-java:S6837"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼J$27c10a79-5409-47ee-a88b-b80a38b24d2b
+java:S6837"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼J$27c10a79-5409-47ee-a88b-b80a38b24d2b
 o
-java:S6837#"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼J$0d3c44d0-8bc4-4508-bf2d-523271147fa1
+java:S6837$"3Remove this superfluous "@ResponseBody" annotation.(Ü¥¼J$0d3c44d0-8bc4-4508-bf2d-523271147fa1
 ‰
-java:S3457"AFormat specifiers should be used instead of string concatenation.(Íü„Ğÿÿÿÿÿ8ğé¨É›2J$0eb3b4be-cf9b-4279-8164-599e7146e3b4
-r	java:S106"+Replace this use of System.out by a logger.(Íü„Ğÿÿÿÿÿ8™³—È›2J$5557cafc-3f03-4a13-ae7e-02e47454c606
+java:S3457"AFormat specifiers should be used instead of string concatenation.(Íü„Ğÿÿÿÿÿ8ğé¨É›2J$0eb3b4be-cf9b-4279-8164-599e7146e3b4
+r	java:S106"+Replace this use of System.out by a logger.(Íü„Ğÿÿÿÿÿ8™³—È›2J$5557cafc-3f03-4a13-ae7e-02e47454c606
 q
 java:S1128"ORemove this unused import 'com.PI.Back.PIBackend.auth.Request.RegisterRequest'.(â¹åüÿÿÿÿ8üµÂĞ›2
 I
