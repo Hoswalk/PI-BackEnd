@@ -19,11 +19,17 @@ import java.util.function.Function;
 @Service
 public class JwtService {
     private static final String SECRET_KEY = "5552020scscS584784ddc1aDW23E541521202CDEWFECDWFWVDSDSA235482E";
-    public String getToken(UserDetails usuario) {
+    public String getToken(Usuario usuario) {
         return getToken(new HashMap<>(), usuario);
     }
 
-    private String getToken(Map<String, Object> extraClaims , UserDetails usuario){
+    private String getToken(Map<String, Object> extraClaims , Usuario usuario){
+        extraClaims.put("nombre", usuario.getNombre());
+        extraClaims.put("apellido", usuario.getApellido());
+        extraClaims.put("email", usuario.getEmail());
+        extraClaims.put("role", usuario.getRole());
+        extraClaims.put("id", usuario.getId());
+
         return Jwts
                 .builder()
                 .setClaims(extraClaims)
