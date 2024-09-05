@@ -32,7 +32,8 @@ public class SegurityConfig {
                 .authorizeHttpRequests(authRequest ->
                         authRequest
                                 .requestMatchers("/auth/**").permitAll()
-                                //  .requestMatchers("/api/**").permitAll()
+                                .requestMatchers("/api/admin/**").hasAuthority("ADMIN")
+                                .requestMatchers("/api/**").authenticated()
                                 .anyRequest().authenticated()
 
                 )
@@ -45,7 +46,7 @@ public class SegurityConfig {
                                 .invalidateHttpSession(true)
                                 .deleteCookies("JSESSIONID")
                                 .logoutSuccessHandler((request, response, authentication) -> {
-                                    
+
                                 }))
                 .authenticationProvider(authProvider)
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)

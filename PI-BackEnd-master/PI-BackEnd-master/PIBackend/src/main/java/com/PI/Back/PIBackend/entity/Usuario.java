@@ -38,7 +38,7 @@ public class Usuario implements UserDetails {
 
     @Override
     public String getUsername() {
-        return null;
+        return email;
     }
 
     @Override

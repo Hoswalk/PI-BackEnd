@@ -6,21 +6,32 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import java.security.Key;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @Service
 public class JwtService {
     private static final String SECRET_KEY = "aB1cD2eF3gH4iJ5kL6mN7oP8qR9sT0uVaB1cD2eF3gH4iJ5kL6mN7oP8qR9sT0uV";
+//    public String getToken(UserDetails usuario) {
+//        return getToken(new HashMap<>(), usuario);
+//    }
+
     public String getToken(UserDetails usuario) {
-        return getToken(new HashMap<>(), usuario);
+        Usuario userClaims = (Usuario) usuario;
+        Map<String, Object> claims = new HashMap<>();
+        claims.put("role", usuario.getAuthorities().stream()
+                .map(GrantedAuthority::getAuthority)
+                .collect(Collectors.toList()));
+        claims.put("nombre", userClaims.getNombre());
+        claims.put("apellido", userClaims.getApellido());
+        return getToken(claims, usuario);
     }
 
     private String getToken(Map<String, Object> extraClaims , UserDetails usuario){
@@ -48,7 +59,7 @@ public class JwtService {
                 return (username.equals(userDetails.getUsername()) && !isTokenExpired(token));
     }
 
-    private Claims getAllClaims(String token){
+    public Claims getAllClaims(String token){
         return Jwts
                 .parserBuilder()
                 .setSigningKey(getKey())
@@ -69,4 +80,5 @@ public class JwtService {
     private boolean isTokenExpired(String token){
         return getExpiration(token).before(new Date());
     }
+
 }

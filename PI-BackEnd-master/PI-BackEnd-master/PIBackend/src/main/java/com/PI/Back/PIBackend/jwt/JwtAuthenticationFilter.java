@@ -1,5 +1,6 @@
 package com.PI.Back.PIBackend.jwt;
 
+import io.jsonwebtoken.Claims;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -16,6 +17,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
+import java.util.List;
 
 @Component
 @RequiredArgsConstructor
@@ -41,6 +43,14 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             UserDetails userDetails = userDetailsService.loadUserByUsername(username);
 
             if (jwtService.isTokenValid(token, userDetails)){
+
+                Claims claims = jwtService.getAllClaims(token);
+                List<String> roles = claims.get("role", List.class);
+
+                System.out.println("claims"+ claims);
+                System.out.println("roles "+ roles);
+                System.out.println("Authorities: " + userDetails.getAuthorities());
+
                 UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
                         userDetails,
                         null,
@@ -49,6 +59,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                         authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
 
                         SecurityContextHolder.getContext().setAuthentication(authToken);
+                System.out.println("authtoken "+authToken);
+                System.out.println("autenticacion exitosa "+username);
 
             }
         }
@@ -62,5 +74,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             return authHeader.substring(7);
         }
         return null;
-}
+    }
+
 }
