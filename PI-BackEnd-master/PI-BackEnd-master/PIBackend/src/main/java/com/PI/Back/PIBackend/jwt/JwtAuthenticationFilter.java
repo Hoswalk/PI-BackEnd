@@ -43,13 +43,14 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             UserDetails userDetails = userDetailsService.loadUserByUsername(username);
 
             if (jwtService.isTokenValid(token, userDetails)){
-
+                // esto es solamente el chequeo de las claims
                 Claims claims = jwtService.getAllClaims(token);
                 List<String> roles = claims.get("role", List.class);
 
                 System.out.println("claims"+ claims);
                 System.out.println("roles "+ roles);
                 System.out.println("Authorities: " + userDetails.getAuthorities());
+                // hasta acá
 
                 UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
                         userDetails,
@@ -59,6 +60,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                         authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
 
                         SecurityContextHolder.getContext().setAuthentication(authToken);
+                // igual esto es para chequear lo que tiene el token
                 System.out.println("authtoken "+authToken);
                 System.out.println("autenticacion exitosa "+username);
 

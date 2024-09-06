@@ -36,6 +36,7 @@ public class Usuario implements UserDetails {
         return List.of(new SimpleGrantedAuthority((role.name())));
     }
 
+    // aca retornaba null, pero debia retornar algun campo
     @Override
     public String getUsername() {
         return email;

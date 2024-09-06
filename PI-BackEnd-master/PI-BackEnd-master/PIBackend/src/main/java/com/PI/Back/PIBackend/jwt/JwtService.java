@@ -19,10 +19,12 @@ import java.util.stream.Collectors;
 @Service
 public class JwtService {
     private static final String SECRET_KEY = "aB1cD2eF3gH4iJ5kL6mN7oP8qR9sT0uVaB1cD2eF3gH4iJ5kL6mN7oP8qR9sT0uV";
-//    public String getToken(UserDetails usuario) {
+    // comente esto porque no se estaban pasando las claims
+    //    public String getToken(UserDetails usuario) {
 //        return getToken(new HashMap<>(), usuario);
 //    }
 
+    // en este metodo se agregan las claims y el rol del usuario
     public String getToken(UserDetails usuario) {
         Usuario userClaims = (Usuario) usuario;
         Map<String, Object> claims = new HashMap<>();
