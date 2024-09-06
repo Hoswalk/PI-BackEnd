@@ -8,6 +8,7 @@ import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
@@ -35,8 +36,19 @@ public class JwtService {
         claims.put("apellido", userClaims.getApellido());
         return getToken(claims, usuario);
     }
+//    private static final String SECRET_KEY = "5552020scscS584784ddc1aDW23E541521202CDEWFECDWFWVDSDSA235482E";
+//    public String getToken(Usuario usuario) {
+//        return getToken(new HashMap<>(), usuario);
+//
+
 
     private String getToken(Map<String, Object> extraClaims , UserDetails usuario){
+//        extraClaims.put("nombre", usuario.getNombre());
+//        extraClaims.put("apellido", usuario.getApellido());
+//        extraClaims.put("email", usuario.getEmail());
+//        extraClaims.put("role", usuario.getRole());
+//        extraClaims.put("id", usuario.getId());
+
         return Jwts
                 .builder()
                 .setClaims(extraClaims)
