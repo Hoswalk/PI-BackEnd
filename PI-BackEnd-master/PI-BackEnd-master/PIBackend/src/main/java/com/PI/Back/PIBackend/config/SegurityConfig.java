@@ -31,12 +31,13 @@ public class SegurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(authRequest ->
                         authRequest
-                                .requestMatchers("/auth/**").permitAll()
-                              //  .requestMatchers("/admin/**").hasAuthority("ADMIN")
-                               // .requestMatchers("/admin/**").authenticated()
+
+                               .requestMatchers("/Admin/**").hasAuthority("ADMIN")
+                                .requestMatchers("/Admin/**").authenticated()
                                 // agregado estas dos lineas
                                 .requestMatchers("/api/admin/**").hasAuthority("ADMIN")
                                 .requestMatchers("/api/**").authenticated()
+                                .requestMatchers("/auth/**").permitAll()
                                 .anyRequest().authenticated()
 
                 )
