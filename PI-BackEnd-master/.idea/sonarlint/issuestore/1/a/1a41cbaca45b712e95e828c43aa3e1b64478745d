@@ -1,5 +1,9 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¾ÔÅJ$e340a896-67c8-4bcf-84dd-18202da508c1
-‹
-java:S1128
-"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€J$0b1dd068-9e2e-4dae-bcf7-8aa0499bbe53
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¾ÔÅ8Ö¼‘œœ2J$a54f78f3-333a-4981-b038-3e2e078080ed
+G	java:S1062"+Replace this use of System.out by a logger.(ğ×ú8½…îÅœ2
+L	java:S1063"+Replace this use of System.out by a logger.(ãßİ£üÿÿÿÿ8¾…îÅœ2
+G	java:S1064"+Replace this use of System.out by a logger.(òŒ…±8¾…îÅœ2
+L	java:S106@"+Replace this use of System.out by a logger.(¬Ù™Àÿÿÿÿÿ8¿…îÅœ2
+L	java:S106A"+Replace this use of System.out by a logger.(öƒŒşøÿÿÿÿ8¿…îÅœ2
+l
+java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€8Â…îÅœ2

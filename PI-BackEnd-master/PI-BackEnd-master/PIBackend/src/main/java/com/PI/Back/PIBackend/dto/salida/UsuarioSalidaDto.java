@@ -1,5 +1,6 @@
 package com.PI.Back.PIBackend.dto.salida;
 
+import com.PI.Back.PIBackend.entity.Role;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,6 +18,8 @@ public class UsuarioSalidaDto {
     private String apellido;
 
     private String email;
+
+    private Role role;
     //private String direccion;
     //private String celular;
 

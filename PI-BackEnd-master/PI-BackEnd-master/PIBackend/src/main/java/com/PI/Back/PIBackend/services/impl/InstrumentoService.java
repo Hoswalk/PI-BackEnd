@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.parameters.P;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +20,7 @@ public class InstrumentoService implements IInstrumentoService {
 
     private final Logger LOGGER = LoggerFactory.getLogger(InstrumentoService.class);
 
+    @Autowired
     private InstrumentoRepository instrumentoRepository;
 
 

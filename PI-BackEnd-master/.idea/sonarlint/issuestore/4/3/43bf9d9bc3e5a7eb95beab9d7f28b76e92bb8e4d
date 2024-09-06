@@ -1,6 +1,6 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îôª…úÿÿÿÿ8ÖÃ´™2J$a7fda427-e833-4da6-a2e9-8c7f73549b2a
-
-java:S1128"ERemove this unused import 'jakarta.servlet.http.HttpServletResponse'.(ÂÓÕÇÿÿÿÿÿ8Ù‚äŸ›2J$cbc68252-6793-4856-8de1-7a721cabd01e
-›
-java:S1128"XRemove this unused import 'org.springframework.security.config.Customizer.withDefaults'.(ÃÒş†8Ú‚äŸ›2J$13d6c005-5dbf-4ae2-852e-cb528a004289
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îôª…úÿÿÿÿ8ôÓÂ¤œ2J$d4fb3989-be7a-4a24-a2ff-aa49c32c6d93
+g
+java:S1128"ERemove this unused import 'jakarta.servlet.http.HttpServletResponse'.(ÂÓÕÇÿÿÿÿÿ8Œ ˜Çœ2
+u
+java:S1128"XRemove this unused import 'org.springframework.security.config.Customizer.withDefaults'.(ÃÒş†8Œ ˜Çœ2

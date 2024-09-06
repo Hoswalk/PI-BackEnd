@@ -63,6 +63,7 @@ public class UsuarioAdminController {
 
     @PutMapping("/modificarRole/{email}/role")
     public ResponseEntity<?> asignarRole(@PathVariable String email, @RequestBody Role newRole) throws ResourceNotFoundException {
+        //Role role = Role.valueOf(String.valueOf(newRole));
         adminService.asignarRole(email, newRole);
         return ResponseEntity.ok("Se ha asignado el rol correctamente");
     }

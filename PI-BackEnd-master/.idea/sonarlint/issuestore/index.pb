@@ -63,3 +63,5 @@ Y
 )PI-BackEnd-master/PIBackend/PIBackend.iml,5\f\5f9fe56bda8f600949f786dad346f1b5d410ee63
 ƒ
 SPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/jwt/JwtService.java,9\7\977f431c6ff7a6f62fc059a76ac24d972ffecb7b
+›
+kPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/CustomUserDetailsService.java,3\8\38336560a4d74967f04fed52c660872f4d9f347b
