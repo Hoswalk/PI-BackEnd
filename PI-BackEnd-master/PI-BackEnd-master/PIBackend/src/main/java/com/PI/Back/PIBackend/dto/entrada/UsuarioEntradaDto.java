@@ -1,5 +1,6 @@
 package com.PI.Back.PIBackend.dto.entrada;
 
+import com.PI.Back.PIBackend.entity.Role;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
@@ -37,6 +38,9 @@ public class UsuarioEntradaDto {
             message = "La contraseña debe tener entre 8 y 25 caracteres, incluyendo al menos una letra mayúscula, una letra minúscula, un número y un carácter especial."
     )
     private String password;
+
+    private Role role;
+
 
     //@Nullable
     //private String direccion;

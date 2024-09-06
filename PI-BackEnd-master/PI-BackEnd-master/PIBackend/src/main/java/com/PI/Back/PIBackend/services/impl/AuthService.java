@@ -42,12 +42,14 @@ public class AuthService {
             throw new IllegalArgumentException(sb.toString());
         }*/
 
+        Role role = (request.getRole() != null) ? request.getRole() : Role.USUARIO;
+
 
         Usuario usuario = Usuario.builder()
                 .nombre(request.getNombre())
                 .apellido(request.getApellido())
                 .email(request.getEmail())
-                .role(Role.ADMIN)
+                .role(role)
                 .password(passwordEncoder.encode(request.getPassword()))  // Encriptar la contraseña
                 .build();
 
