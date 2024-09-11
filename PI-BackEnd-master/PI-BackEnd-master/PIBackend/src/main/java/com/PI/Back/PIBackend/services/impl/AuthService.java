@@ -8,10 +8,12 @@ import com.PI.Back.PIBackend.entity.Role;
 import com.PI.Back.PIBackend.entity.Usuario;
 import com.PI.Back.PIBackend.jwt.JwtService;
 import com.PI.Back.PIBackend.repository.UsuarioRepository;
+import com.PI.Back.PIBackend.services.EmailService;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Valid;
 import jakarta.validation.Validator;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -27,7 +29,14 @@ public class AuthService {
     private final PasswordEncoder passwordEncoder;
     private final JwtService jwtService;
     private final AuthenticationManager authenticationManager;
+
+
+    @Autowired
+    private EmailService emailService;
     private final Validator validator;
+
+
+
 
     public AuthResponse register(@Valid UsuarioEntradaDto request) {
         //Validando el DTO
@@ -58,6 +67,9 @@ public class AuthService {
 
 
         //Mandar mail al usuario (?)
+        String subject = "Confirmación de registro";
+        String text = "Hola " + usuario.getNombre() + ",\n\nGracias por registrarte en sonidos prestados.";
+        emailService.sendEmail(usuario.getEmail(), subject, text);
 
 
 
