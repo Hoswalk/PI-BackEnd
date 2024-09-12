@@ -1,6 +1,7 @@
 package com.PI.Back.PIBackend.dto.entrada;
 
 import com.PI.Back.PIBackend.entity.Role;
+import jakarta.annotation.Nullable;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
@@ -39,11 +40,13 @@ public class UsuarioEntradaDto {
     )
     private String password;
 
+
+
     private Role role;
 
 
-    //@Nullable
-    //private String direccion;
-    //@Nullable
-    //private String celular;
+    @Nullable
+    private String direccion;
+    @Nullable
+    private String celular;
 }

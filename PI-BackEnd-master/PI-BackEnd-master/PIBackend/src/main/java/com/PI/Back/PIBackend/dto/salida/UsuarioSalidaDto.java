@@ -20,7 +20,7 @@ public class UsuarioSalidaDto {
     private String email;
 
     private Role role;
-    //private String direccion;
-    //private String celular;
+    private String direccion;
+    private String celular;
 
 }
