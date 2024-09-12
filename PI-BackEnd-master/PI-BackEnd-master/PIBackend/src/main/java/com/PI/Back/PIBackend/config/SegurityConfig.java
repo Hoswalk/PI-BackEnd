@@ -31,13 +31,16 @@ public class SegurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(authRequest ->
                         authRequest
+
+                                // endpoinds publicos
                                 .requestMatchers("/auth/**").permitAll()
+                                .requestMatchers("/**").permitAll()
+
+                                // endpoints privados
                                 .requestMatchers("/admin/**").hasRole("ADMIN")
                                 .requestMatchers("/api/admin/**").hasAuthority("ADMIN")
-                                .requestMatchers("/**").permitAll()
-                                //.requestMatchers("/Admin/**").hasAuthority("ADMIN")
-                                //.requestMatchers("/api/**").authenticated()
 
+                                //Resto de enpoints - NO ESPECIFICADOS
                                 .anyRequest().authenticated()
 
                 )

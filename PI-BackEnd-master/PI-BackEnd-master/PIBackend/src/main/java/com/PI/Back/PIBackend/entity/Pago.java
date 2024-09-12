@@ -2,13 +2,14 @@ package com.PI.Back.PIBackend.entity;
 
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDate;
 
 @Entity
-@Getter @Setter
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Pago {
 
     @Id
@@ -16,21 +17,16 @@ public class Pago {
     private long id;
 
     @OneToOne
-    @JoinColumn(name = "id", nullable = false)
+    @JoinColumn(name = "alquiler_id", nullable = false)
     private Alquiler alquiler;
 
     private Double monto;
+
     private LocalDate fechaDePago;
+
     private String metodoDePago;
 
-    public Pago() {
-    }
+    private String estado;
 
-    public Pago(long id, Alquiler alquiler, Double monto, LocalDate fechaDePago, String metodoDePago) {
-        this.id = id;
-        this.alquiler = alquiler;
-        this.monto = monto;
-        this.fechaDePago = fechaDePago;
-        this.metodoDePago = metodoDePago;
-    }
+    private String referenciaTransaccion;
 }

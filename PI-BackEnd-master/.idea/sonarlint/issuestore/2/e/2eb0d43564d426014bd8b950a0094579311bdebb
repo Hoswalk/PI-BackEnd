@@ -1,6 +1,7 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”ÀJ$85fdd559-5b7c-4f1a-ba84-927d57ecf760
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”À8­³Ìó2J$d27095ba-257d-4481-b5d7-e5294af984da
 o
-java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68ØæÜÇ›2J$64410a88-c28c-4fd7-8345-03a13a8fe4e8
+java:S1128
+"-Remove this unused import 'org.slf4j.Logger'.(íØ®68»³Ìó2J$226e1234-bdb2-49ac-93a5-46fa8630f150
 w
-java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8ØæÜÇ›2J$e8700dd5-8515-458c-8e8b-e312e18d8859
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8»³Ìó2J$fa266c18-2673-4759-abee-7d100e809789
