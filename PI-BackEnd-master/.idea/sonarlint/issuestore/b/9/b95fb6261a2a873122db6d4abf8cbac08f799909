@@ -1,9 +1,9 @@
 
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ýà¾w8žŽéÈ›2J$ff7fcbeb-8ab8-4050-825d-7982660128ef
-ƒ	java:S125#"<This block of commented-out lines of code should be removed.(î·£úýÿÿÿÿ8§¼±É›2J$07b714e7-b016-4e6d-9216-0cfa732077c4
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ýà¾w8žŽéÈ›2J$1652b1bb-03a4-4308-9b77-2789c8099290
+ƒ	java:S125#"<This block of commented-out lines of code should be removed.(î·£úýÿÿÿÿ8§¼±É›2J$bd72d7cd-8d21-4ade-9b0b-a1640db5cc66
 —
-java:S1128"ORemove this unused import 'com.PI.Back.PIBackend.auth.Request.RegisterRequest'.(žâ¹åüÿÿÿÿ8¬¼±É›2J$2ac6cfd3-a1ff-4f12-b8d3-c5b7b285f482
+java:S1128"ORemove this unused import 'com.PI.Back.PIBackend.auth.Request.RegisterRequest'.(žâ¹åüÿÿÿÿ8¬¼±É›2J$56e5ffcb-5ced-4460-ab57-cc332d4d048f
 …
-java:S1128"CRemove this unused import 'jakarta.validation.ConstraintViolation'.(Â¢×)8­¼±É›2J$ae604480-722b-44e4-a746-be9f0fe831fc
+java:S1128"CRemove this unused import 'jakarta.validation.ConstraintViolation'.(Â¢×)8­¼±É›2J$c1d7611e-9594-4282-8f50-02eb03858c89
 r
-java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8­¼±É›2J$98635523-1e7c-46b7-bb5e-c25705d58b6d
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8­¼±É›2J$0f0fb423-def8-44c3-a5a6-05932b4a799f
