@@ -1,11 +1,14 @@
 package com.PI.Back.PIBackend.controllers;
 
+import com.PI.Back.PIBackend.dto.entrada.CaracteristicaEntradaDto;
 import com.PI.Back.PIBackend.dto.entrada.InstrumentoEntradaDto;
+import com.PI.Back.PIBackend.dto.salida.CaracteristicaSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.UsuarioSalidaDto;
 import com.PI.Back.PIBackend.entity.Role;
 import com.PI.Back.PIBackend.exceptions.ResourceNotFoundException;
 import com.PI.Back.PIBackend.services.impl.AdminService;
+import com.PI.Back.PIBackend.services.impl.CaracteristicaService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -22,6 +25,7 @@ import java.util.List;
 public class UsuarioAdminController {
 
     private final AdminService adminService;
+    private final CaracteristicaService caracteristicaService;
 
 
     //INSTRUMENTOS
@@ -72,6 +76,19 @@ public class UsuarioAdminController {
     public ResponseEntity<List<UsuarioSalidaDto>> listarUsuarios(){
         return new ResponseEntity<>(adminService.listarUsuarios(), HttpStatus.OK);
     }
+
+
+    // CACACTERISTICAS
+    @GetMapping("/caracteristicas")
+    public ResponseEntity<List<CaracteristicaSalidaDto>> listarCaracteristicas(){
+        return new ResponseEntity<>(caracteristicaService.listarCaracteristicas(), HttpStatus.OK);
+    }
+
+    @PostMapping("/instrumento/registrarCaracteristica")
+    public ResponseEntity<CaracteristicaSalidaDto> registrarCaracteristica(@RequestBody @Valid CaracteristicaEntradaDto caracteristica){
+        return new ResponseEntity<>(caracteristicaService.registrarCaracteristica(caracteristica), HttpStatus.CREATED);
+    }
+
 
 
 }

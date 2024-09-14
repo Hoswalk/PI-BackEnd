@@ -37,6 +37,8 @@ public class UsuarioEntradaDto {
     )
     private String password;
 
+
+
     private Role role;
 
 

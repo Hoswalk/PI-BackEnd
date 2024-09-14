@@ -16,8 +16,10 @@ public class Instrumento {
     private String nombre;
     private String categoria;
     private Double precioDriario;
+    //HAY QUE BORRAR STOCK
     private Integer stock;
     private String imagen;
     private String detalle;
+    private String detalleview;
 
 }

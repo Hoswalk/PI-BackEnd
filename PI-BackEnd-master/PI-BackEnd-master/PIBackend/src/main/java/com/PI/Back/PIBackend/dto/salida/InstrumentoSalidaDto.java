@@ -15,5 +15,7 @@ public class InstrumentoSalidaDto {
     private Integer stock;
     private String imagen;
     private String detalle;
+    
+    private String detalleview;
 
 }
