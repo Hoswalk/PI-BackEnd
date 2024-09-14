@@ -23,6 +23,6 @@ public class Instrumento {
     private Integer stock;
     private String imagen;
     private String detalle;
-    // HAY QUE AGREGAR detalleview
+    private String detalleview;
 
 }

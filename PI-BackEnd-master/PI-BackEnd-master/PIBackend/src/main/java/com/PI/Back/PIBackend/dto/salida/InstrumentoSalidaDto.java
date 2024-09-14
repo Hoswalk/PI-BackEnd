@@ -24,5 +24,7 @@ public class InstrumentoSalidaDto {
     private String imagen;
 
     private String detalle;
+    
+    private String detalleview;
 
 }
