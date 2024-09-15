@@ -4,6 +4,9 @@ import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -25,9 +28,8 @@ public class InstrumentoEntradaDto {
     @Min(1)
     private Integer stock;
 
-    @NotNull
-    @NotBlank(message = "El producto debe contener minimo una imagen.")
-    private String imagen;
+    @NotNull(message = "El producto debe contener minimo una imagen.")
+    private List<String> imagenes;
 
     @NotNull
     @NotBlank(message = "El prodcuto debe incluir una descripcion.")

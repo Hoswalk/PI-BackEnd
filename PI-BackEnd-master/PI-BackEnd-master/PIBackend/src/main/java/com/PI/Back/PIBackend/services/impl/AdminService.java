@@ -22,6 +22,8 @@ import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestPart;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.lang.module.ResolutionException;
 import java.util.List;
@@ -42,8 +44,13 @@ public class AdminService implements IAdminService {
     @Override
     @Transactional
     @Secured("ROLE_ADMIN")
-    public InstrumentoSalidaDto registrarInstrumento(InstrumentoEntradaDto instrumento) {
+    public InstrumentoSalidaDto registrarInstrumento(InstrumentoEntradaDto instrumento, List<String> imagenes) {
         Instrumento instrumentoGuardado = instrumentoRepository.save(modelMapper.map(instrumento, Instrumento.class));
+
+        instrumentoGuardado.setImagenes(imagenes);
+
+        instrumentoRepository.save(instrumentoGuardado);
+
         InstrumentoSalidaDto instrumentoSalidaDto = modelMapper.map(instrumentoGuardado, InstrumentoSalidaDto.class);
         //Log de la salida
         LOGGER.info("Instrumento guardado: {}", instrumentoSalidaDto);
@@ -93,8 +100,9 @@ public class AdminService implements IAdminService {
                 instrumento.getCategoria(),
                 instrumento.getPrecioDriario(),
                 instrumento.getStock(),
-                instrumento.getImagen(),
-                instrumento.getDetalle()
+                instrumento.getImagenes(),
+                instrumento.getDetalle(),
+                instrumento.getDetalleview()
         );
     }
 
@@ -122,7 +130,7 @@ public class AdminService implements IAdminService {
             instrumentoActualizar.setCategoria(instrumentoIngresado.getCategoria());
             instrumentoActualizar.setPrecioDriario(instrumentoIngresado.getPrecioDriario());
             instrumentoActualizar.setStock(instrumentoIngresado.getStock());
-            instrumentoActualizar.setImagen(instrumentoIngresado.getImagen());
+            instrumentoActualizar.setImagenes(instrumentoIngresado.getImagenes());
             instrumentoActualizar.setDetalle(instrumentoIngresado.getDetalle());
 
             instrumentoRepository.save(instrumentoActualizar);

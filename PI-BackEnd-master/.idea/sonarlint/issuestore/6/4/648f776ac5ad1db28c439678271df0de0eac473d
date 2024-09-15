@@ -1,7 +1,7 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”À8ÝýÚÆœ2J$8ea8d798-5dc3-4f21-b250-a5fe64f4068b
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”À8›ÂÝ¶Ÿ2J$34b3ca71-2c06-4d33-96fa-1317a77e805e
 n
-java:S14528"&Remove usage of generic wildcard type.(Ä”òÓÿÿÿÿÿ8óýÚÆœ2J$29885830-9388-4cea-bbd2-7482dd30ff4b
+java:S1452="&Remove usage of generic wildcard type.(Ä”òÓÿÿÿÿÿ8©ÂÝ¶Ÿ2J$45fee0f9-5bde-4690-836a-d9434aac0e59
 i
-java:S1452A"&Remove usage of generic wildcard type.(ˆ¦Ì¯8ôýÚÆœ2J$f6c082ec-c1db-4c99-929b-3a38ce9915df
-ƒ	java:S125B"<This block of commented-out lines of code should be removed.(è±ò’ûÿÿÿÿ8»®óÆœ2J$db4554d2-7658-48e3-b00b-57e806353615
+java:S1452F"&Remove usage of generic wildcard type.(ˆ¦Ì¯8ªÂÝ¶Ÿ2J$f5131248-4ebf-4e94-bcf6-aae6afc35afe
+ƒ	java:S125G"<This block of commented-out lines of code should be removed.(è±ò’ûÿÿÿÿ8ªÂÝ¶Ÿ2J$9c47fc9f-bc89-4f3e-b317-ff48ef174311

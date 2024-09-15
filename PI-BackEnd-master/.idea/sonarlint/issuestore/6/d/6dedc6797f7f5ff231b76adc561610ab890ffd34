@@ -1,15 +1,19 @@
 
 l
-java:S2629?"$Invoke method(s) only conditionally.(İŠºØûÿÿÿÿ8íü²Ó™2J$55d7cf4e-49a0-47b9-ac98-844dc99a9b69
+java:S2629F"$Invoke method(s) only conditionally.(İŠºØûÿÿÿÿ8¸š¶Ÿ2J$4ea91e19-dd8e-484b-a258-ce87116e4f61
 l
-java:S2629L"$Invoke method(s) only conditionally.(Ó¬æÈúÿÿÿÿ8îü²Ó™2J$0f73f225-b75b-4998-9703-b3caa5089594
+java:S2629S"$Invoke method(s) only conditionally.(Ó¬æÈúÿÿÿÿ8¸š¶Ÿ2J$6e2e9723-8243-4c28-b4b4-17fb05f21837
 l
-java:S2629M"$Invoke method(s) only conditionally.(ÒøÊ‘úÿÿÿÿ8îü²Ó™2J$bcd6c1af-b3b6-4d25-a798-83e5996c1121
+java:S2629T"$Invoke method(s) only conditionally.(ÒøÊ‘úÿÿÿÿ8Ÿ¸š¶Ÿ2J$aa784888-707f-4da3-a5fa-36afc454bdbc
 m
-java:S2629«"$Invoke method(s) only conditionally.(¢ş¦æúÿÿÿÿ8îü²Ó™2J$64b8f716-ddc7-48ec-a259-7f85e112e1cc
-”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾wJ$e9201d8e-5957-424c-b824-9c3516ad7d47
-‘	java:S116 "QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÄí·øÿÿÿÿJ$c5662378-9940-420d-b25a-0a4d9debcc1c
-~
-java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞJ$6d7f121e-f610-4892-b514-6d6fbf3f5fb7
-~
-java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞJ$0dfe0c91-f3d8-436f-81c3-9dbdf9793590
+java:S2629³"$Invoke method(s) only conditionally.(¢ş¦æúÿÿÿÿ8Ÿ¸š¶Ÿ2J$c17491e6-a5ee-4da4-84ea-d5761909c061
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8 ¸š¶Ÿ2J$9e3bf566-4f17-41b9-8bc4-436ef3ccd47d
+˜	java:S116""QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÄí·øÿÿÿÿ8¯¸š¶Ÿ2J$3f64b130-4e3b-41cd-a9f8-7d0560718318
+…
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞ8°¸š¶Ÿ2J$d5aa4062-5dba-466d-99a6-046e8274ce5c
+…
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞ8°¸š¶Ÿ2J$8bfa3eb5-df86-4b3e-aa0d-a2c7c880f47b
+r
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.RequestPart'.(æñ³şÿÿÿÿ8´áâ¶Ÿ2
+n
+java:S1128"LRemove this unused import 'org.springframework.web.multipart.MultipartFile'.(ôŸœÿÿÿÿÿ8´áâ¶Ÿ2

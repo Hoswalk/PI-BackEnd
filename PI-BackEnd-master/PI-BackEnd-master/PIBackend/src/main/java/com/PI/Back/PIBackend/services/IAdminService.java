@@ -5,13 +5,14 @@ import com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.UsuarioSalidaDto;
 import com.PI.Back.PIBackend.entity.Role;
 import com.PI.Back.PIBackend.exceptions.ResourceNotFoundException;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
 public interface IAdminService {
 
     //INSTRUMENTO ADMIN
-    InstrumentoSalidaDto registrarInstrumento(InstrumentoEntradaDto instrumento);
+    InstrumentoSalidaDto registrarInstrumento(InstrumentoEntradaDto instrumento, List<String> imagenes);
     List<InstrumentoSalidaDto> listarInstrumentos();
     InstrumentoSalidaDto buscarInstrumentoPorId(Long id);
     void eliminarInstrumento(Long id) throws ResourceNotFoundException;

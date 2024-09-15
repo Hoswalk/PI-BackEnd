@@ -14,6 +14,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -31,8 +32,8 @@ public class UsuarioAdminController {
     //INSTRUMENTOS
 
     @PostMapping("/instrumento/registrarInstrumento")
-    public ResponseEntity<InstrumentoSalidaDto> registrarInstrumento(@RequestBody @Valid InstrumentoEntradaDto instrumento){
-        return new ResponseEntity<>(adminService.registrarInstrumento(instrumento), HttpStatus.CREATED);
+    public ResponseEntity<InstrumentoSalidaDto> registrarInstrumento(@Valid @RequestBody InstrumentoEntradaDto instrumento){
+        return new ResponseEntity<>(adminService.registrarInstrumento(instrumento, instrumento.getImagenes()), HttpStatus.CREATED);
     }
 
     @GetMapping("/instrumento/buscarInstrumentoId/{id}")

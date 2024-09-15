@@ -2,6 +2,9 @@ package com.PI.Back.PIBackend.dto.salida;
 
 
 import lombok.*;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -13,7 +16,7 @@ public class InstrumentoSalidaDto {
     private String categoria;
     private Double precioDiario;
     private Integer stock;
-    private String imagen;
+    private List<String> imagenes;
     private String detalle;
     
     private String detalleview;

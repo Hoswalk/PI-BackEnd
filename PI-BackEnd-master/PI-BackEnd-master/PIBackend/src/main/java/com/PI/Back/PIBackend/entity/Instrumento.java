@@ -2,6 +2,9 @@ package com.PI.Back.PIBackend.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
 
 @Entity
 @Table(name = "INSTRUMENTOS")
@@ -18,7 +21,10 @@ public class Instrumento {
     private Double precioDriario;
     //HAY QUE BORRAR STOCK
     private Integer stock;
-    private String imagen;
+
+    @ElementCollection
+    private List<String> imagenes;
+
     private String detalle;
     private String detalleview;
 
