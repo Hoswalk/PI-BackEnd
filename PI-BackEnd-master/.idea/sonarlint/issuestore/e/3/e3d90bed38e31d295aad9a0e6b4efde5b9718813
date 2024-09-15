@@ -1,0 +1,16 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8±…’õ2J$a1e2bedb-9fc9-43e4-b842-ad2293dc83de
+˜	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‡Î€ıÿÿÿÿ8¹…’õ2J$1c2ee6d4-4333-40a5-afbf-e44116f864cb
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8º…’õ2J$dc113d21-b718-4c70-90bf-62a9a125ca31
+…
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8º…’õ2J$b038abff-25c5-40af-ad13-d094bb918670
+…
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞ8º…’õ2J$681892d7-395e-42ec-8430-90dbfe4e1f4b
+~
+java:S1128
+"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8¡®¡“2J$20ba8525-a6fd-403c-9110-29e7d109e20b
+p
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8¡®¡“2J$b3acb297-f004-4139-be5a-b43873e45b40
+|
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8¢®¡“2J$f41864df-3200-4c2b-b469-564a4c08ca5b

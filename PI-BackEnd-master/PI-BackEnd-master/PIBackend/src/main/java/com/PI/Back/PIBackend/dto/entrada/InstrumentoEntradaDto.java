@@ -3,12 +3,12 @@ package com.PI.Back.PIBackend.dto.entrada;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+import org.springframework.web.multipart.MultipartFile;
 
-@Getter @Setter
+import java.util.List;
+
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class InstrumentoEntradaDto {
@@ -28,11 +28,15 @@ public class InstrumentoEntradaDto {
     @Min(1)
     private Integer stock;
 
-    @NotNull
-    @NotBlank(message = "El producto debe contener minimo una imagen.")
-    private String imagen;
+    @NotNull(message = "El producto debe contener minimo una imagen.")
+    private List<String> imagenes;
 
     @NotNull
     @NotBlank(message = "El prodcuto debe incluir una descripcion.")
     private String detalle;
+
+    @NotNull
+    @NotBlank(message = "El prodcuto debe incluir una descripcion para la vista detallada.")
+    private String detalleview;
+
 }

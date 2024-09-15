@@ -1,12 +1,9 @@
 package com.PI.Back.PIBackend.dto.salida;
 
 import com.PI.Back.PIBackend.entity.Role;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-@Getter @Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class UsuarioSalidaDto {

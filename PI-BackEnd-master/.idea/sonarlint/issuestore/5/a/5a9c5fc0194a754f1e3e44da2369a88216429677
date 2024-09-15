@@ -1,11 +1,11 @@
 
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8Ä™€Ÿ›2J$29ee1234-4aa3-47ae-99d5-b409a4946db2
-˜	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÑùÁúÿÿÿÿ8É™€Ÿ›2J$3e57137e-edd5-4df4-a6a3-84dd1e30b18e
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8Ä™€Ÿ›2J$3e61c657-fd61-4f2c-b3c0-bc255de89a29
+˜	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÑùÁúÿÿÿÿ8É™€Ÿ›2J$dcbdf250-28bb-464f-9647-d3c151fec027
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ò¶ËÇœ2J$469830b0-c7e9-4c9c-a349-8cf5d6ed63a5
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ò¶ËÇœ2J$c6a1cd81-2b96-4e32-85b5-9d565df70a7a
 p
-java:S2447"-Null is returned but a "Boolean" is expected.(¥¹ï8Í™€Ÿ›2J$a3db4319-b0f8-44c3-9d75-8e2ba161e49b
+java:S2447"-Null is returned but a "Boolean" is expected.(¥¹ï8Í™€Ÿ›2J$cf35123f-5f61-4aa8-875c-17dcac840918
 €
-java:S1128"8Remove this unused import 'org.modelmapper.ModelMapper'.(ó¿Ôúÿÿÿÿ8£Ï›œ2J$b5522122-bb62-41b2-9870-dc9c9cb1e384
+java:S1128"8Remove this unused import 'org.modelmapper.ModelMapper'.(ó¿Ôúÿÿÿÿ8£Ï›œ2J$3fc58378-f52e-4e1d-9576-73b3ed21ffd5
 “
-java:S1128"KRemove this unused import 'org.springframework.security.core.parameters.P'.(Æ­Åıÿÿÿÿ8£Ï›œ2J$3c89c147-76b4-4eaa-afea-81f528c50708
+java:S1128"KRemove this unused import 'org.springframework.security.core.parameters.P'.(Æ­Åıÿÿÿÿ8£Ï›œ2J$4e97b89d-ef45-45f7-9dc9-e1161c64048c

@@ -12,7 +12,6 @@ import java.util.List;
 @Entity
 @Table(name = "USUARIOS" , uniqueConstraints = {@UniqueConstraint(columnNames = {"email"})})
 @Builder
-@Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Data

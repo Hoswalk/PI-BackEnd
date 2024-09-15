@@ -1,14 +1,14 @@
 package com.PI.Back.PIBackend.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.List;
 
 @Entity
 @Table(name = "INSTRUMENTOS")
-@Getter @Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Instrumento {
@@ -20,9 +20,12 @@ public class Instrumento {
     private String categoria;
     private Double precioDriario;
     //HAY QUE BORRAR STOCK
-    private Integer stock;
-    private String imagen;
+    //private Integer stock;
+
+    @ElementCollection
+    private List<String> imagenes;
+
     private String detalle;
-    // HAY QUE AGREGAR detalleview
+    private String detalleview;
 
 }

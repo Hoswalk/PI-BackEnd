@@ -32,12 +32,15 @@ public class SegurityConfig {
                 .authorizeHttpRequests(authRequest ->
                         authRequest
 
-                               .requestMatchers("/Admin/**").hasAuthority("ADMIN")
-                                .requestMatchers("/Admin/**").authenticated()
-                                // agregado estas dos lineas
-                                .requestMatchers("/api/admin/**").hasAuthority("ADMIN")
-                                .requestMatchers("/api/**").authenticated()
+                                // endpoinds publicos
                                 .requestMatchers("/auth/**").permitAll()
+                                .requestMatchers("/**").permitAll()
+
+                                // endpoints privados
+                                .requestMatchers("/admin/**").hasRole("ADMIN")
+                                .requestMatchers("/api/admin/**").hasAuthority("ADMIN")
+
+                                //Resto de enpoints - NO ESPECIFICADOS
                                 .anyRequest().authenticated()
 
                 )
