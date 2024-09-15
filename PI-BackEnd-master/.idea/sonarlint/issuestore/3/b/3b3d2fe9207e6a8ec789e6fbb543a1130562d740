@@ -1,8 +1,18 @@
 
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8ñ£ùÚ™2J$ad58fcf0-a3a4-4fc1-8417-3b1acbeb6b06
-“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8ø£ùÚ™2J$f355bece-396a-45e8-a17e-b4b14fa73862
-~	java:S125'"<This block of commented-out lines of code should be removed.(©‘¡‰8ÉÀ‡Ü™2J$2687e9eb-cc57-469b-b28c-16d4f96b39c6
+T
+java:S2629W"7Use the built-in formatting to construct this argument.(–òò8á˜¥ºŸ2
+Y
+java:S2629\"7Use the built-in formatting to construct this argument.(…€Àùÿÿÿÿ8á˜¥ºŸ2
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8†ËÌ·Ÿ2J$ade49025-f8b7-40bf-a86b-464ed3ca6dc1
+“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8ËÌ·Ÿ2J$e570ab7e-5ade-48d7-8e15-4bd77d65671d
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ËÌ·Ÿ2J$e3ed03c1-29a2-4fff-a8ca-aa02c46e7291
+…
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8óó§¸Ÿ2J$83dbe313-8831-4546-840a-8cf55f6c69bf
+~	java:S125:"<This block of commented-out lines of code should be removed.(©‘¡‰8“ËÌ·Ÿ2J$7ad51f4f-ed06-47a0-8bc3-d8e5244d99a8
 p
-java:S24471"-Null is returned but a "Boolean" is expected.(¥¹ï8ş£ùÚ™2J$36b6b2f8-5c98-47af-99bf-f552460f8798
-m
-java:S1068"*Remove this unused "LOGGER" private field.(Ùöî8ÿ£ùÚ™2J$23849960-7eb6-43f3-8566-8572b7edcc71
+java:S2447D"-Null is returned but a "Boolean" is expected.(¥¹ï8“ËÌ·Ÿ2J$2b260609-29e2-4688-b273-1ac66b817909
+^
+java:S3457W"AFormat specifiers should be used instead of string concatenation.(–òò8õ˜¥ºŸ2
+c
+java:S3457\"AFormat specifiers should be used instead of string concatenation.(…€Àùÿÿÿÿ8õ˜¥ºŸ2
