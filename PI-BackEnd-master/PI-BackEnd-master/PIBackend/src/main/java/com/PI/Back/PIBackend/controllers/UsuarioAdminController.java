@@ -33,6 +33,7 @@ public class UsuarioAdminController {
 
     @PostMapping("/instrumento/registrarInstrumento")
     public ResponseEntity<InstrumentoSalidaDto> registrarInstrumento(@Valid @RequestBody InstrumentoEntradaDto instrumento){
+
         return new ResponseEntity<>(adminService.registrarInstrumento(instrumento, instrumento.getImagenes()), HttpStatus.CREATED);
     }
 
