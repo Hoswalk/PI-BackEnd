@@ -33,6 +33,7 @@ public class UsuarioAdminController {
 
     @PostMapping("/instrumento/registrarInstrumento")
     public ResponseEntity<InstrumentoSalidaDto> registrarInstrumento(@Valid @RequestBody InstrumentoEntradaDto instrumento){
+
         return new ResponseEntity<>(adminService.registrarInstrumento(instrumento, instrumento.getImagenes()), HttpStatus.CREATED);
     }
 
@@ -41,7 +42,7 @@ public class UsuarioAdminController {
         return new ResponseEntity<>(adminService.buscarInstrumentoPorId(id), HttpStatus.OK);
     }
 
-    @GetMapping("/instrumento/listar")
+    @GetMapping("/instrumentos")
     public ResponseEntity<List<InstrumentoSalidaDto>> listarInstrumentos(){
         return new ResponseEntity<>(adminService.listarInstrumentos(), HttpStatus.OK);
     }
@@ -86,7 +87,7 @@ public class UsuarioAdminController {
     }
 
     @PostMapping("/instrumento/registrarCaracteristica")
-    public ResponseEntity<CaracteristicaSalidaDto> registrarCaracteristica(@RequestBody @Valid CaracteristicaEntradaDto caracteristica){
+    public ResponseEntity<CaracteristicaSalidaDto> registrarCaracteristica(@RequestBody @Valid CaracteristicaEntradaDto caracteristica) throws ResourceNotFoundException {
         return new ResponseEntity<>(caracteristicaService.registrarCaracteristica(caracteristica), HttpStatus.CREATED);
     }
 

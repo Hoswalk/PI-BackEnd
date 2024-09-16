@@ -34,6 +34,7 @@ public class JwtService {
                 .collect(Collectors.toList()));
         claims.put("nombre", userClaims.getNombre());
         claims.put("apellido", userClaims.getApellido());
+        claims.put("role" , userClaims.getRole());
         return getToken(claims, usuario);
     }
 //    private static final String SECRET_KEY = "5552020scscS584784ddc1aDW23E541521202CDEWFECDWFWVDSDSA235482E";
