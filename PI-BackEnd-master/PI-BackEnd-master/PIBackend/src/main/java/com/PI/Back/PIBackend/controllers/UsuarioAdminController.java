@@ -41,7 +41,7 @@ public class UsuarioAdminController {
         return new ResponseEntity<>(adminService.buscarInstrumentoPorId(id), HttpStatus.OK);
     }
 
-    @GetMapping("/instrumento/listar")
+    @GetMapping("/instrumentos")
     public ResponseEntity<List<InstrumentoSalidaDto>> listarInstrumentos(){
         return new ResponseEntity<>(adminService.listarInstrumentos(), HttpStatus.OK);
     }

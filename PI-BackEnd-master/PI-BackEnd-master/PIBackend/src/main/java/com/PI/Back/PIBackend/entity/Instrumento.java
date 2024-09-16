@@ -20,7 +20,7 @@ public class Instrumento {
     private String categoria;
     private Double precioDriario;
     //HAY QUE BORRAR STOCK
-    //private Integer stock;
+    private Integer stock;
 
     @ElementCollection
     private List<String> imagenes;
