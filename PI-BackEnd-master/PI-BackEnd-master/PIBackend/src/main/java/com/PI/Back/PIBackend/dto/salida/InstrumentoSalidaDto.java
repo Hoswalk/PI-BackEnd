@@ -15,7 +15,6 @@ public class InstrumentoSalidaDto {
     private String nombre;
     private String categoria;
     private Double precioDiario;
-    private Integer stock;
     private List<String> imagenes;
     private String detalle;
     

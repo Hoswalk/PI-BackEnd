@@ -36,31 +36,7 @@ public class UsuarioService implements IUsuarioService {
 
     @Override
     public Boolean alquilarInstrumento(InstrumentoSalidaDto instrumentoSalidaDto) {
-
-        Long instrumentoId = instrumentoSalidaDto.getId();
-
-        Optional<Instrumento> instrumentoOptional = instrumentoRepository.findById(instrumentoId);
-
-        //verificar instrumento
-
-        if (instrumentoOptional.isPresent()) {
-            Instrumento instrumento = instrumentoOptional.get();
-
-            //Verificar si hay stock
-            if (instrumento.getStock() > 0){
-                //Actualizar stock
-                instrumento.setStock(instrumento.getStock() - 1);
-
-                //Guardar
-                instrumentoRepository.save(instrumento);
-
-                // Registrar el alquiler en la base de datos si es necesario
-                // alquilerRepository.save(new Alquiler(instrumento, instrumentoSalidaDto.getUsuarioId(), LocalDate.now()));
-
-                return true;
-            }
-        }
-        return false;
+        return null;
     }
 
     @Override
