@@ -1,18 +1,18 @@
 
-T
-java:S2629W"7Use the built-in formatting to construct this argument.(–òò8á˜¥ºŸ2
-Y
-java:S2629\"7Use the built-in formatting to construct this argument.(…€Àùÿÿÿÿ8á˜¥ºŸ2
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8†ËÌ·Ÿ2J$ade49025-f8b7-40bf-a86b-464ed3ca6dc1
-“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8ËÌ·Ÿ2J$e570ab7e-5ade-48d7-8e15-4bd77d65671d
+z
+java:S2629W"7Use the built-in formatting to construct this argument.(–òò8á˜¥ºŸ2J$807fa26c-04c8-4167-98a7-e4bdd89d8440
+
+java:S2629\"7Use the built-in formatting to construct this argument.(…€Àùÿÿÿÿ8á˜¥ºŸ2J$662642e4-6fc4-4bd3-8b20-2e902fdc6adb
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8†ËÌ·Ÿ2J$400a5162-d328-48e0-b9c7-b2e3b6e770b7
+“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8ËÌ·Ÿ2J$65db7b1c-8f8b-45b3-99dd-024173916c5d
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ËÌ·Ÿ2J$e3ed03c1-29a2-4fff-a8ca-aa02c46e7291
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ËÌ·Ÿ2J$ae89860f-75d1-4913-9232-c560819ea548
 …
-java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8óó§¸Ÿ2J$83dbe313-8831-4546-840a-8cf55f6c69bf
-~	java:S125:"<This block of commented-out lines of code should be removed.(©‘¡‰8“ËÌ·Ÿ2J$7ad51f4f-ed06-47a0-8bc3-d8e5244d99a8
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8óó§¸Ÿ2J$e404a2d8-b832-400f-983a-2ba1cdef8f15
+~	java:S125:"<This block of commented-out lines of code should be removed.(©‘¡‰8“ËÌ·Ÿ2J$fa2c59d0-b6cd-4c14-8480-cc6ea70982a5
 p
-java:S2447D"-Null is returned but a "Boolean" is expected.(¥¹ï8“ËÌ·Ÿ2J$2b260609-29e2-4688-b273-1ac66b817909
-^
-java:S3457W"AFormat specifiers should be used instead of string concatenation.(–òò8õ˜¥ºŸ2
-c
-java:S3457\"AFormat specifiers should be used instead of string concatenation.(…€Àùÿÿÿÿ8õ˜¥ºŸ2
+java:S2447D"-Null is returned but a "Boolean" is expected.(¥¹ï8“ËÌ·Ÿ2J$f44ce2b8-b802-4839-9225-08155ee7f766
+„
+java:S3457W"AFormat specifiers should be used instead of string concatenation.(–òò8õ˜¥ºŸ2J$dca639f8-a4a2-4e27-a9e6-24babb39cf44
+‰
+java:S3457\"AFormat specifiers should be used instead of string concatenation.(…€Àùÿÿÿÿ8õ˜¥ºŸ2J$7d661284-5f15-4c11-86ec-92af66f6f8e5

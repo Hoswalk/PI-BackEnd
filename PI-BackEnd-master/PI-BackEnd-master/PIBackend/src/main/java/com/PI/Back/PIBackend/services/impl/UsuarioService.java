@@ -70,7 +70,7 @@ public class UsuarioService implements IUsuarioService {
 
     @Override
     @Transactional
-    @Secured("ROLE_USUARIO, ROLE_ADMIN")
+    @Secured("ROLE_USUARIO")
     public UsuarioSalidaDto modificarUsuario(UsuarioEntradaDto usuarioEntradaDto, Long id) throws ResourceNotFoundException {
 
         Usuario usuarioIngresado = modelMapper.map(usuarioEntradaDto, Usuario.class);
