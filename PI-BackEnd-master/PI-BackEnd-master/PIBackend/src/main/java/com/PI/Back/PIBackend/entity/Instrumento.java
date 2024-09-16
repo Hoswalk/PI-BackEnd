@@ -18,9 +18,9 @@ public class Instrumento {
     private long id;
     private String nombre;
     private String categoria;
-    private Double precioDriario;
+    private Double precioDiario;
     //HAY QUE BORRAR STOCK
-    private Integer stock;
+     private Integer stock;
 
     @ElementCollection
     private List<String> imagenes;

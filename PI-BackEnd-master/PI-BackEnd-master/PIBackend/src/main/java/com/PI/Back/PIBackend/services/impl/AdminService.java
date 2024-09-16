@@ -98,7 +98,7 @@ public class AdminService implements IAdminService {
                 instrumento.getId(),
                 instrumento.getNombre(),
                 instrumento.getCategoria(),
-                instrumento.getPrecioDriario(),
+                instrumento.getPrecioDiario(),
                 instrumento.getStock(),
                 instrumento.getImagenes(),
                 instrumento.getDetalle(),
@@ -128,7 +128,7 @@ public class AdminService implements IAdminService {
         if (instrumentoActualizar != null){
             instrumentoActualizar.setNombre(instrumentoIngresado.getNombre());
             instrumentoActualizar.setCategoria(instrumentoIngresado.getCategoria());
-            instrumentoActualizar.setPrecioDriario(instrumentoIngresado.getPrecioDriario());
+            instrumentoActualizar.setPrecioDiario(instrumentoIngresado.getPrecioDiario());
             instrumentoActualizar.setStock(instrumentoIngresado.getStock());
             instrumentoActualizar.setImagenes(instrumentoIngresado.getImagenes());
             instrumentoActualizar.setDetalle(instrumentoIngresado.getDetalle());
