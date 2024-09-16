@@ -3,7 +3,10 @@ package com.PI.Back.PIBackend.services.impl;
 import com.PI.Back.PIBackend.dto.entrada.CaracteristicaEntradaDto;
 import com.PI.Back.PIBackend.dto.salida.CaracteristicaSalidaDto;
 import com.PI.Back.PIBackend.entity.Caracteristica;
+import com.PI.Back.PIBackend.entity.Instrumento;
+import com.PI.Back.PIBackend.exceptions.ResourceNotFoundException;
 import com.PI.Back.PIBackend.repository.CaracteristicaRepository;
+import com.PI.Back.PIBackend.repository.InstrumentoRepository;
 import com.PI.Back.PIBackend.services.ICaracteristicaService;
 import com.PI.Back.PIBackend.utils.JsonPrinter;
 import jakarta.transaction.Transactional;
@@ -22,6 +25,7 @@ public class CaracteristicaService implements ICaracteristicaService {
 
     private final Logger LOGGER = LoggerFactory.getLogger(CaracteristicaService.class);
     private final CaracteristicaRepository caracteristicaRepository;
+    private final InstrumentoRepository instrumentoRepository;
     private final ModelMapper modelMapper;
     @Transactional
     @Override
@@ -40,8 +44,15 @@ public class CaracteristicaService implements ICaracteristicaService {
     @Transactional
     @Secured("ROLE_ADMIN")
     @Override
-    public CaracteristicaSalidaDto registrarCaracteristica(CaracteristicaEntradaDto caracteristica) {
+    public CaracteristicaSalidaDto registrarCaracteristica(CaracteristicaEntradaDto caracteristica) throws ResourceNotFoundException {
+        // Busca el instrumento en la base de datos por su id
+        Instrumento instrumento = instrumentoRepository.findById(caracteristica.getIdInstrumento())
+                .orElseThrow(() -> new ResourceNotFoundException("Instrumento al que se le quiere asignar la caracteristica no encontrado"));
+
+
+
         Caracteristica caracteristicaGuardada = caracteristicaRepository.save(modelMapper.map(caracteristica, Caracteristica.class));
+        caracteristicaGuardada.setInstrumento(instrumento);
         CaracteristicaSalidaDto caracteristicaSalidaDto = modelMapper.map(caracteristicaGuardada, CaracteristicaSalidaDto.class);
         //Log de la salida
         LOGGER.info("Caracteristica guardado: {}", caracteristicaSalidaDto);
