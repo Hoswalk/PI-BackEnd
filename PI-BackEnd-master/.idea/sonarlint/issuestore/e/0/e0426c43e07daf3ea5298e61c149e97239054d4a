@@ -1,0 +1,5 @@
+
+?
+java:S2629("$Invoke method(s) only conditionally.(“—×ÿÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w
+k	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ô÷éûÿÿÿÿ
