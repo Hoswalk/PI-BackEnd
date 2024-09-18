@@ -1,18 +1,23 @@
 
-T
-java:S2629W"7Use the built-in formatting to construct this argument.(–òò8á˜¥ºŸ2
-Y
-java:S2629\"7Use the built-in formatting to construct this argument.(…€Àùÿÿÿÿ8á˜¥ºŸ2
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8†ËÌ·Ÿ2J$ade49025-f8b7-40bf-a86b-464ed3ca6dc1
-“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8ËÌ·Ÿ2J$e570ab7e-5ade-48d7-8e15-4bd77d65671d
+z
+java:S2629?"7Use the built-in formatting to construct this argument.(–òò8Ì¯ÀéŸ2J$52fbc49e-913c-4fc5-b23c-791962cd8da7
+
+java:S2629D"7Use the built-in formatting to construct this argument.(…€Àùÿÿÿÿ8Í¯ÀéŸ2J$a32cd888-cafd-4128-bbb2-4b06cdc1f510
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8Î¯ÀéŸ2J$42bdf1a7-31b5-4722-b27a-1ca34d81c22d
+“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8×¯ÀéŸ2J$1f837665-f7d1-456b-89d1-892efa21be28
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ËÌ·Ÿ2J$e3ed03c1-29a2-4fff-a8ca-aa02c46e7291
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ù¯ÀéŸ2J$a2c35edb-0382-4f4a-b9f3-a9e8d43320f5
 …
-java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8óó§¸Ÿ2J$83dbe313-8831-4546-840a-8cf55f6c69bf
-~	java:S125:"<This block of commented-out lines of code should be removed.(©‘¡‰8“ËÌ·Ÿ2J$7ad51f4f-ed06-47a0-8bc3-d8e5244d99a8
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ù¯ÀéŸ2J$bac3d6ef-4b2f-4719-9d36-a6e54c0e40c6
 p
-java:S2447D"-Null is returned but a "Boolean" is expected.(¥¹ï8“ËÌ·Ÿ2J$2b260609-29e2-4688-b273-1ac66b817909
-^
-java:S3457W"AFormat specifiers should be used instead of string concatenation.(–òò8õ˜¥ºŸ2
-c
-java:S3457\"AFormat specifiers should be used instead of string concatenation.(…€Àùÿÿÿÿ8õ˜¥ºŸ2
+java:S2447'"-Null is returned but a "Boolean" is expected.(¥¹ï8Ş¯ÀéŸ2J$8677d256-65dc-4c4a-a699-00bda3756bb6
+J
+java:S2447,"-Null is returned but a "Boolean" is expected.(¥¹ï8« ÊéŸ2
+„
+java:S3457?"AFormat specifiers should be used instead of string concatenation.(–òò8à¯ÀéŸ2J$68712634-0831-4522-9553-095623c94baa
+‰
+java:S3457D"AFormat specifiers should be used instead of string concatenation.(…€Àùÿÿÿÿ8à¯ÀéŸ2J$d99a2498-9221-4796-80ef-9df6cf6bd115
+b
+java:S1128"ERemove this unused import 'com.PI.Back.PIBackend.entity.Instrumento'.(‘´çİ8¯ ÊéŸ2
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8¯ ÊéŸ2

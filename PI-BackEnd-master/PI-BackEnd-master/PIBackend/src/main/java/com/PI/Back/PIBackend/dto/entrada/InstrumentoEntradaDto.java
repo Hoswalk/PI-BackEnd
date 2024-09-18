@@ -24,9 +24,6 @@ public class InstrumentoEntradaDto {
     @NotNull(message = "Debe especificarse el precio diario.")
     private Double precioDiario;
 
-    @NotNull(message = "Stock no puede estar vacio.")
-    @Min(1)
-    private Integer stock;
 
     @NotNull(message = "El producto debe contener minimo una imagen.")
     private List<String> imagenes;

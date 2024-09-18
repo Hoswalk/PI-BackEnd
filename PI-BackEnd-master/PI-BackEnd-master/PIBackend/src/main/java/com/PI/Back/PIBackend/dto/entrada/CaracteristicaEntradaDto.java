@@ -14,7 +14,7 @@ public class CaracteristicaEntradaDto {
     private String nombre;
 
     @NotNull(message = "El logo no puede ser nulo")
-    private String logo;
+    private String icono;
 
     @NotNull(message = "El id del instrumento no puede ser nulo")
     private Long idInstrumento;

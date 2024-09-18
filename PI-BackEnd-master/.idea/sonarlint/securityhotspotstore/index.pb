@@ -79,3 +79,11 @@ _PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/dto/entrada/Pag
 ^PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/PagoService.java,e\3\e3d90bed38e31d295aad9a0e6b4efde5b9718813
 ’
 bPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/repository/AlquilerRepository.java,7\0\702ecbafa1c77db7ad1cf52f8ee5172a7caf16a0
+™
+iPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/dto/entrada/CaracteristicaEntradaDto.java,e\6\e653a9c7c9cb43c4584682af9d582003c19fbf45
+—
+gPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/dto/salida/CaracteristicaSalidaDto.java,b\9\b924482dd3e62e37774ee2176cc4651fc8f62a14
+”
+dPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/ICaracteristicaService.java,d\1\d16b814f5717501e09ba20b978952a1c19a83734
+˜
+hPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/CaracteristicaService.java,e\0\e0426c43e07daf3ea5298e61c149e97239054d4a

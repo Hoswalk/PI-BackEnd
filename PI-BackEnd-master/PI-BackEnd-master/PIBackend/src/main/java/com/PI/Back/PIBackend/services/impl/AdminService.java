@@ -43,10 +43,6 @@ public class AdminService implements IAdminService {
 
     @Override
     public InstrumentoSalidaDto registrarInstrumento(InstrumentoEntradaDto instrumento, List<String> imagenes) {
-        // Verificar si el valor de 'stock' es nulo o no válido, y asignar 1 por defecto
-        if (instrumento.getStock() == null || instrumento.getStock() <= 0) {
-            instrumento.setStock(1); // Asignar valor por defecto de 1 si no se recibe un valor válido
-        }
 
         Instrumento instrumentoGuardado = instrumentoRepository.save(modelMapper.map(instrumento, Instrumento.class));
 
@@ -56,7 +52,8 @@ public class AdminService implements IAdminService {
 
         InstrumentoSalidaDto instrumentoSalidaDto = modelMapper.map(instrumentoGuardado, InstrumentoSalidaDto.class);
         //Log de la salida
-        LOGGER.info("Instrumento guardado: {}", instrumentoSalidaDto);
+        LOGGER.info("Instrumento guardado: {}",
+                instrumentoSalidaDto);
         return instrumentoSalidaDto;
     }
 
@@ -102,7 +99,6 @@ public class AdminService implements IAdminService {
                 instrumento.getNombre(),
                 instrumento.getCategoria(),
                 instrumento.getPrecioDiario(),
-                instrumento.getStock(),
                 instrumento.getImagenes(),
                 instrumento.getDetalle(),
                 instrumento.getDetalleview()
@@ -132,7 +128,6 @@ public class AdminService implements IAdminService {
             instrumentoActualizar.setNombre(instrumentoIngresado.getNombre());
             instrumentoActualizar.setCategoria(instrumentoIngresado.getCategoria());
             instrumentoActualizar.setPrecioDiario(instrumentoIngresado.getPrecioDiario());
-            instrumentoActualizar.setStock(instrumentoIngresado.getStock());
             instrumentoActualizar.setImagenes(instrumentoIngresado.getImagenes());
             instrumentoActualizar.setDetalle(instrumentoIngresado.getDetalle());
 

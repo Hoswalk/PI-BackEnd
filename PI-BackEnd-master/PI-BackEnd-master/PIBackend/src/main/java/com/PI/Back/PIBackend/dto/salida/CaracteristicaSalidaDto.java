@@ -10,10 +10,10 @@ import lombok.*;
 @AllArgsConstructor
 
 public class CaracteristicaSalidaDto {
+
     private Long idCaracteristica;
     private String nombre;
-    private String logo;
+    private String icono;
     private InstrumentoSalidaDto instrumentoSalidaDto;
-
 
 }

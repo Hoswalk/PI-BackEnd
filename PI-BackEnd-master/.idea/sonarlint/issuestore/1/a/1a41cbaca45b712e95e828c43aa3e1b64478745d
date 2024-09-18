@@ -1,9 +1,9 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¾ÔÅ8Ö¼‘œœ2J$a54f78f3-333a-4981-b038-3e2e078080ed
-G	java:S1062"+Replace this use of System.out by a logger.(ğ×ú8½…îÅœ2
-L	java:S1063"+Replace this use of System.out by a logger.(ãßİ£üÿÿÿÿ8¾…îÅœ2
-G	java:S1064"+Replace this use of System.out by a logger.(òŒ…±8¾…îÅœ2
-L	java:S106@"+Replace this use of System.out by a logger.(¬Ù™Àÿÿÿÿÿ8¿…îÅœ2
-L	java:S106A"+Replace this use of System.out by a logger.(öƒŒşøÿÿÿÿ8¿…îÅœ2
-l
-java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€8Â…îÅœ2
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¾ÔÅ8Ö¼‘œœ2J$c13d0e33-c981-477f-94d8-000eaa818a40
+m	java:S1062"+Replace this use of System.out by a logger.(ğ×ú8½…îÅœ2J$14eb5dc0-381f-45be-b8b0-35108ec46864
+r	java:S1063"+Replace this use of System.out by a logger.(ãßİ£üÿÿÿÿ8¾…îÅœ2J$7132ea43-5033-4ed0-9a17-dcfe67e46618
+m	java:S1064"+Replace this use of System.out by a logger.(òŒ…±8¾…îÅœ2J$d4120419-31e1-4406-a964-ac7e46bad866
+r	java:S106@"+Replace this use of System.out by a logger.(¬Ù™Àÿÿÿÿÿ8¿…îÅœ2J$9d0ccb60-6f0d-4f9b-8458-72e5bca7ab17
+r	java:S106A"+Replace this use of System.out by a logger.(öƒŒşøÿÿÿÿ8¿…îÅœ2J$5df973d6-e353-4a4e-9c7e-3b9d8c1d7bae
+’
+java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€8Â…îÅœ2J$a96a259e-0df6-48ad-a27d-5eea938a87d8
