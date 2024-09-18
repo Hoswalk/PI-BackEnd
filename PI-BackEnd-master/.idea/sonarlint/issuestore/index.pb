@@ -87,3 +87,11 @@ gPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/dto/salida/Cara
 dPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/ICaracteristicaService.java,d\1\d16b814f5717501e09ba20b978952a1c19a83734
 ò
 hPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/CaracteristicaService.java,e\0\e0426c43e07daf3ea5298e61c149e97239054d4a
+é
+^PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/IAlquilerService.java,d\4\d45049c3bae8c97c3f09a1a2dc5df1373e7bd2f7
+í
+bPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/AlquilerService.java,4\1\41534ae80e5c435dc447def7580aec11a51c4f9f
+ò
+hPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/repository/CaracteristicaRepository.java,a\a\aaaec6c4b94a4770ed8e33f0e600aca14230d703
+ç
+]PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/config/ModelMapperConfig.java,c\d\cd6b502cdf8783cfaeea1a4a4d093865c07a008b

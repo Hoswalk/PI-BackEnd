@@ -20,4 +20,6 @@ public class InstrumentoSalidaDto {
     
     private String detalleview;
 
+    private boolean disponible;
+
 }
