@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 public class UsuarioSalidaDto {
 
-    private long id;
+    private long idUsuario;
 
     private String nombre;
 
