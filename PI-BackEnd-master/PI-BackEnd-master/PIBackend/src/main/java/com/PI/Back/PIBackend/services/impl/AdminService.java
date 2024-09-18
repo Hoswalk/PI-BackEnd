@@ -52,7 +52,8 @@ public class AdminService implements IAdminService {
 
         InstrumentoSalidaDto instrumentoSalidaDto = modelMapper.map(instrumentoGuardado, InstrumentoSalidaDto.class);
         //Log de la salida
-        LOGGER.info("Instrumento guardado: {}", instrumentoSalidaDto);
+        LOGGER.info("Instrumento guardado: {}",
+                instrumentoSalidaDto);
         return instrumentoSalidaDto;
     }
 
