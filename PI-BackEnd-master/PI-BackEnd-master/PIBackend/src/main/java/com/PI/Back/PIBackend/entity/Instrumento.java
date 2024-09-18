@@ -26,4 +26,6 @@ public class Instrumento {
     private String detalle;
     private String detalleview;
 
+    private boolean disponible;
+
 }

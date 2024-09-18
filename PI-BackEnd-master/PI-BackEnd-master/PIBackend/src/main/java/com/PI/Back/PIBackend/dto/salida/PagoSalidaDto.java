@@ -12,8 +12,14 @@ import java.time.LocalDate;
 public class PagoSalidaDto {
 
     private Long id;
+    private Long alquilerId;
+    private Long usuarioId;
     private Double monto;
+
+    private LocalDate fechaInicio;
+    private LocalDate fechaFin;
+
     private LocalDate fechaDePago;
     private String estado;
-    private String referenciaDePago;
+    private String referenciaTransaccion;
 }

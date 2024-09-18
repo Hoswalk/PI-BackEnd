@@ -1,2 +1,9 @@
 
-ú	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜÷Ï8ø¶À∑ù2J$2928ce25-6428-4586-b349-662096ac6805
+ú	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Í˜÷Ï8“≥æ∞†2J$5179a89c-704b-4fe5-8f16-a8a21033147c
+à
+java:S1128"ERemove this unused import 'com.PI.Back.PIBackend.entity.Instrumento'.(ë¥Á›8Ô€…≤†2J$0abab92a-9a30-472e-bbac-0fc55e287abb
+]
+java:S1128"ARemove this unused import 'com.PI.Back.PIBackend.entity.Usuario'.(ÏíŒ!8ÂÒ…≤†2
+Ñ
+java:S1128
+"ARemove this unused import 'org.springframework.cglib.core.Local'.(ù¡“˚8ﬂœò≤†2J$344c6fa4-b96b-4cdf-a028-bc31ebadcec5

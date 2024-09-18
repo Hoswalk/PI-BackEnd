@@ -36,4 +36,6 @@ public class InstrumentoEntradaDto {
     @NotBlank(message = "El prodcuto debe incluir una descripcion para la vista detallada.")
     private String detalleview;
 
+    private boolean disponible;
+
 }

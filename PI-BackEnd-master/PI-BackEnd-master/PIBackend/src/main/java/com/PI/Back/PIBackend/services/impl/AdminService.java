@@ -100,7 +100,8 @@ public class AdminService implements IAdminService {
                 instrumento.getPrecioDiario(),
                 instrumento.getImagenes(),
                 instrumento.getDetalle(),
-                instrumento.getDetalleview()
+                instrumento.getDetalleview(),
+                instrumento.isDisponible()
         );
     }
 
