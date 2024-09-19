@@ -93,5 +93,3 @@ hPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/C
 bPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/services/impl/AlquilerService.java,4\1\41534ae80e5c435dc447def7580aec11a51c4f9f
 ò
 hPI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/repository/CaracteristicaRepository.java,a\a\aaaec6c4b94a4770ed8e33f0e600aca14230d703
-ç
-]PI-BackEnd-master/PIBackend/src/main/java/com/PI/Back/PIBackend/config/ModelMapperConfig.java,c\d\cd6b502cdf8783cfaeea1a4a4d093865c07a008b
