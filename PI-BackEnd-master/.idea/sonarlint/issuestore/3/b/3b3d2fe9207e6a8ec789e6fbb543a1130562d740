@@ -1,23 +1,27 @@
 
 z
-java:S2629?"7Use the built-in formatting to construct this argument.(–òò8Ì¯ÀéŸ2J$210ec0ab-a602-4159-8eaf-bca325d3b729
+java:S2629F"7Use the built-in formatting to construct this argument.(–òò8Ì¯ÀéŸ2J$dc0931e7-3a82-40d4-b2ff-5a30163f197b
 
-java:S2629D"7Use the built-in formatting to construct this argument.(…€Àùÿÿÿÿ8Í¯ÀéŸ2J$81600ebe-f1e6-4113-9284-38ff61fb1b7a
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8Î¯ÀéŸ2J$b32e91a5-b4ca-48ad-a02f-25439e931e76
-“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8×¯ÀéŸ2J$caa4b9d1-58d0-4657-9b43-11dcad7a1ebb
+java:S2629K"7Use the built-in formatting to construct this argument.(…€Àùÿÿÿÿ8Í¯ÀéŸ2J$3d607ccd-b339-4a28-99f7-b5fb465ae538
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8Î¯ÀéŸ2J$fac65b83-c3fe-4f5f-9272-550fc2373b87
+“	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùöî8×¯ÀéŸ2J$a513d73b-1de4-4769-ab1e-6926616b9504
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ù¯ÀéŸ2J$b9512e9a-a956-4de9-beee-6af85626493f
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ù¯ÀéŸ2J$20296191-0384-4719-9e60-506a1326e611
 …
-java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ù¯ÀéŸ2J$e5e2ea90-e5f5-4230-b05a-7ca853230e18
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ù¯ÀéŸ2J$19a89143-6626-4b51-80b9-b3c1f72e3620
 p
-java:S2447'"-Null is returned but a "Boolean" is expected.(¥¹ï8Ş¯ÀéŸ2J$88e0d7ba-9c55-49ba-823c-a2d717da4c7f
+java:S2447'"-Null is returned but a "Boolean" is expected.(¥¹ï8Ş¯ÀéŸ2J$7ea70377-cae2-4310-953d-ac4374493121
 p
-java:S2447,"-Null is returned but a "Boolean" is expected.(¥¹ï8« ÊéŸ2J$75f56bd9-933b-4559-b00a-31e3878346b8
+java:S2447,"-Null is returned but a "Boolean" is expected.(¥¹ï8« ÊéŸ2J$e5db3bed-f1a0-4685-9a25-44619646f1f2
+a
+java:S18544"DRemove this useless assignment to local variable "usuarioIngresado".(úú8™¸ÂÛ 2
+R
+java:S14814"5Remove this unused "usuarioIngresado" local variable.(úú8›¸ÂÛ 2
 „
-java:S3457?"AFormat specifiers should be used instead of string concatenation.(–òò8à¯ÀéŸ2J$87e69f21-2054-409c-8aae-7e27e05792ae
+java:S3457F"AFormat specifiers should be used instead of string concatenation.(–òò8à¯ÀéŸ2J$467bfe21-9725-422c-ad89-0862ea5e50f2
 ‰
-java:S3457D"AFormat specifiers should be used instead of string concatenation.(…€Àùÿÿÿÿ8à¯ÀéŸ2J$d0bb1a5a-2e85-4d39-b706-ffde8b08e038
+java:S3457K"AFormat specifiers should be used instead of string concatenation.(…€Àùÿÿÿÿ8à¯ÀéŸ2J$9473da24-6281-4cd3-8835-bc87e7c9c075
 ˆ
-java:S1128"ERemove this unused import 'com.PI.Back.PIBackend.entity.Instrumento'.(‘´çİ8¯ ÊéŸ2J$c6571a47-8760-4f35-85ec-1b6226cde17f
+java:S1128"ERemove this unused import 'com.PI.Back.PIBackend.entity.Instrumento'.(‘´çİ8¯ ÊéŸ2J$3ee18351-1ccd-4fd2-87d4-abd54f169521
 w
-java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8¯ ÊéŸ2J$aebed6bc-770a-4035-9dfa-0e5379796c18
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8¯ ÊéŸ2J$ea5047ef-d9a0-4d89-accb-7925632f21e1

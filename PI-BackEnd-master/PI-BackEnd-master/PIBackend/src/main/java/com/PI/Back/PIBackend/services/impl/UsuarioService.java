@@ -55,9 +55,16 @@ public class UsuarioService implements IUsuarioService {
         UsuarioSalidaDto usuarioSalidaDto;
 
         if (usuarioActualizar != null){
-            usuarioActualizar.setEmail(usuarioIngresado.getEmail());
-            usuarioActualizar.setCelular(usuarioIngresado.getCelular());
-            usuarioActualizar.setDireccion(usuarioIngresado.getDireccion());
+            // Solo actualiza los campos que no son nulos en usuarioEntradaDto
+            if (usuarioEntradaDto.getEmail() != null) {
+                usuarioActualizar.setEmail(usuarioEntradaDto.getEmail());
+            }
+            if (usuarioEntradaDto.getCelular() != null) {
+                usuarioActualizar.setCelular(usuarioEntradaDto.getCelular());
+            }
+            if (usuarioEntradaDto.getDireccion() != null) {
+                usuarioActualizar.setDireccion(usuarioEntradaDto.getDireccion());
+            }
 
             // Log antes de guardar
             LOGGER.info("Actualizando usuario con ID: " + id + " con los nuevos datos: " + usuarioActualizar);
