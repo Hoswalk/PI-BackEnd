@@ -1,7 +1,8 @@
 package com.PI.Back.PIBackend.services.impl;
 
-import com.PI.Back.PIBackend.dto.entrada.CaracteristicaEntradaDto;
+import  com.PI.Back.PIBackend.dto.entrada.CaracteristicaEntradaDto;
 import com.PI.Back.PIBackend.dto.salida.CaracteristicaSalidaDto;
+import com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto;
 import com.PI.Back.PIBackend.entity.Caracteristica;
 import com.PI.Back.PIBackend.entity.Instrumento;
 import com.PI.Back.PIBackend.exceptions.ResourceNotFoundException;
@@ -18,6 +19,7 @@ import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -27,6 +29,8 @@ public class CaracteristicaService implements ICaracteristicaService {
     private final CaracteristicaRepository caracteristicaRepository;
     private final InstrumentoRepository instrumentoRepository;
     private final ModelMapper modelMapper;
+    private final InstrumentoService instrumentoService;
+
     @Transactional
     @Override
     public List<CaracteristicaSalidaDto> listarCaracteristicas() {
@@ -52,10 +56,47 @@ public class CaracteristicaService implements ICaracteristicaService {
 
 
         Caracteristica caracteristicaGuardada = caracteristicaRepository.save(modelMapper.map(caracteristica, Caracteristica.class));
+        CaracteristicaSalidaDto caracteristicaSalidaDto = entidadADtoSalida(caracteristicaGuardada);
         caracteristicaGuardada.setInstrumento(instrumento);
-        CaracteristicaSalidaDto caracteristicaSalidaDto = modelMapper.map(caracteristicaGuardada, CaracteristicaSalidaDto.class);
+     //   CaracteristicaSalidaDto caracteristicaSalidaDto = modelMapper.map(caracteristicaGuardada, CaracteristicaSalidaDto.class);
         //Log de la salida
-        LOGGER.info("Caracteristica guardado: {}", caracteristicaSalidaDto);
+     //   LOGGER.info("Caracteristica guardado: {}", caracteristicaSalidaDto);
+        return caracteristicaSalidaDto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    private CaracteristicaSalidaDto entidadADtoSalida(Caracteristica caracteristica) {
+        CaracteristicaSalidaDto caracteristicaSalidaDto = modelMapper.map(caracteristica, CaracteristicaSalidaDto.class);
+
+        LOGGER.info("Id del instrumento a convertir {}: " , caracteristica.getInstrumento().getId());
+
+        Optional<Instrumento> instrumentoParaMapear = instrumentoRepository.findById(caracteristica.getInstrumento().getId());
+
+        // Verifica si el instrumento está presente
+        if (instrumentoParaMapear.isPresent()) {
+            Instrumento instrumento = instrumentoParaMapear.get();
+            LOGGER.info("Instrumento a Mapear obtenido de la BD con el id :{} " , instrumento);
+
+            // Mapear el objeto Instrumento al DTO
+            InstrumentoSalidaDto instrumentoParaSetear = modelMapper.map(instrumento, InstrumentoSalidaDto.class);
+            LOGGER.info("Instrumento a setear {}: " , instrumentoParaSetear);
+
+            caracteristicaSalidaDto.setInstrumentoSalidaDto(instrumentoParaSetear);
+        } else {
+            LOGGER.warn("Instrumento no encontrado para el id: {}", caracteristica.getInstrumento().getId());
+        }
+
         return caracteristicaSalidaDto;
     }
 
