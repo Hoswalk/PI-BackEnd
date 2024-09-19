@@ -1,12 +1,12 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¾ÔÅ8´Çú¢œ2J$7e0e3f34-ade7-430f-9711-3742c6e56f86
-}	java:S125"<This block of commented-out lines of code should be removed.(»¼“~8Ã‡îÅœ2J$5d732ee0-1f6c-41bb-aa78-a183378d8703
-•
-java:S6204""RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ã¤£’8Ç‡îÅœ2J$4365126a-38fd-4dd6-aac6-6e1117cae5fb
-~	java:S125'"<This block of commented-out lines of code should be removed.(èóÀ8É‡îÅœ2J$f4c97d4f-f467-406e-8f5e-ef89e8a5a63b
-}	java:S125."<This block of commented-out lines of code should be removed.(­Ÿý]8Ì‡îÅœ2J$96b220d5-704f-4e8a-83f0-1c27af7fe9c8
-§
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¾ÔÅ8©È©Ü 2
+W	java:S125"<This block of commented-out lines of code should be removed.(»¼“~8½È©Ü 2
+o
+java:S6204""RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ã¤£’8ÀÈ©Ü 2
+X	java:S125("<This block of commented-out lines of code should be removed.(èóÀ8ÂÈ©Ü 2
+W	java:S125/"<This block of commented-out lines of code should be removed.(­Ÿý]8ÂÈ©Ü 2
+
 java:S1128
-"_Remove this unused import 'org.springframework.security.core.authority.SimpleGrantedAuthority'.(– ‹Ìûÿÿÿÿ8Ú‡îÅœ2J$b8c802be-6e98-4932-8298-77ae7959c386
-’
-java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€8Û‡îÅœ2J$1ae8ac5e-3592-40a7-bb4a-ec7e2ff9cffe
+"_Remove this unused import 'org.springframework.security.core.authority.SimpleGrantedAuthority'.(– ‹Ìûÿÿÿÿ8ÉÈ©Ü 2
+l
+java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(–Ä€8ÉÈ©Ü 2
