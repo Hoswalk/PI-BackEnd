@@ -42,10 +42,12 @@ public class UsuarioAdminController {
         return new ResponseEntity<>(adminService.buscarInstrumentoPorId(id), HttpStatus.OK);
     }
 
+    /*
     @GetMapping("/instrumentos")
     public ResponseEntity<List<InstrumentoSalidaDto>> listarInstrumentos(){
         return new ResponseEntity<>(adminService.listarInstrumentos(), HttpStatus.OK);
     }
+     */
 
     @PutMapping("/instrumento/modificarInstrumento/{id}")
     public ResponseEntity<InstrumentoSalidaDto> modeificarInstrumento(@RequestBody InstrumentoEntradaDto instrumento, @PathVariable Long id) throws ResourceNotFoundException {

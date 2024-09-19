@@ -2,6 +2,7 @@ package com.PI.Back.PIBackend.controllers;
 
 import com.PI.Back.PIBackend.dto.entrada.PagoEntradaDto;
 import com.PI.Back.PIBackend.dto.entrada.UsuarioEntradaDto;
+import com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.PagoSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.UsuarioSalidaDto;
 import com.PI.Back.PIBackend.entity.Instrumento;
@@ -38,6 +39,11 @@ public class UsuarioController {
     @PostMapping("/pago")
     public ResponseEntity<PagoSalidaDto> procesarPago(@RequestBody PagoEntradaDto pagoEntradaDto){
         return new ResponseEntity<>(pagoService.procesarPago(pagoEntradaDto), HttpStatus.OK);
+    }
+
+    @GetMapping("/instrumentos")
+    public ResponseEntity<List<InstrumentoSalidaDto>> listarInstrumentos(){
+        return new ResponseEntity<>(adminService.listarInstrumentos(), HttpStatus.OK);
     }
 
     @GetMapping("/buscarInstrumento")

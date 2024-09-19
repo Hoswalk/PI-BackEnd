@@ -165,7 +165,7 @@ public class AdminService implements IAdminService {
 
     @Override
     @Transactional
-    //@Secured("ROLE_ADMIN")
+    @Secured("ROLE_ADMIN")
     public List<UsuarioSalidaDto> listarUsuarios() {
 
         List<UsuarioSalidaDto> usuarioSalidaDto = usuarioRepository.findAll()
