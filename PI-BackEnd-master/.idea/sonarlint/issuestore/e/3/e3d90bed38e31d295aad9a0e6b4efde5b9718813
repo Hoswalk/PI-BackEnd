@@ -1,25 +1,25 @@
 
-ˆ	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(ž¢©«8ÚÇ›³ 2J$0a7735ec-5783-47ab-b731-2cb694f05230
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ýà¾w8ÝÇ›³ 2J$eceedeb3-04c5-4784-96d8-dd7d8bdc468f
-˜	java:S116!"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‡Î€ýÿÿÿÿ8íÇ›³ 2J$d3b61ff5-8d20-4a2d-acd7-56bf684c05bf
+ˆ	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(ž¢©«8ÚÇ›³ 2J$39dd8414-c02d-44c3-81b1-e7476874ab3c
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ýà¾w8ÝÇ›³ 2J$0af2a231-0275-408e-96a5-40b1aec96516
+˜	java:S116!"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‡Î€ýÿÿÿÿ8íÇ›³ 2J$96489602-89cd-43f9-b6c3-9c61ba3c1567
 …
-java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄÞ8íÇ›³ 2J$6394d5b9-4c16-4f80-886a-b56e0e134446
+java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄÞ8íÇ›³ 2J$3610e86c-5b94-4cbd-9ebe-bc02ff1fdf65
 …
-java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄÞ8íÇ›³ 2J$9db0054b-a4fd-4a19-87d0-70df5d45773a
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄÞ8íÇ›³ 2J$e58946fa-7a96-4c29-854c-d96d9f19d180
 …
-java:S6813)"BRemove this field injection and use constructor injection instead.(êæÄÞ8íÇ›³ 2J$cdbca1fa-59de-48aa-9bf2-c01ac5b8f3cc
+java:S6813)"BRemove this field injection and use constructor injection instead.(êæÄÞ8íÇ›³ 2J$4ab6a74f-ce21-4c27-98b2-77531c87b7ea
 …
-java:S6813,"BRemove this field injection and use constructor injection instead.(êæÄÞ8íÇ›³ 2J$2980f1f6-12f0-4a7e-8c3d-d0cb83b08cdf
+java:S6813,"BRemove this field injection and use constructor injection instead.(êæÄÞ8íÇ›³ 2J$0cb26a55-380f-4460-9fb3-fee4a31222ac
 …
-java:S6813/"BRemove this field injection and use constructor injection instead.(êæÄÞ8îÇ›³ 2J$b6553dd8-d31e-40c8-8125-04e69873f57c
+java:S6813/"BRemove this field injection and use constructor injection instead.(êæÄÞ8îÇ›³ 2J$b431893a-bf0d-4208-bde3-6e3205ae2f72
 …
-java:S68132"BRemove this field injection and use constructor injection instead.(êæÄÞ8îÇ›³ 2J$f57f747a-1d08-486d-948f-21e7e88a13ea
-ƒ	java:S125="<This block of commented-out lines of code should be removed.(ù¨³Šøÿÿÿÿ8óÇ›³ 2J$43671c8f-9de4-417e-90b2-2eaf2016c28a
+java:S68132"BRemove this field injection and use constructor injection instead.(êæÄÞ8îÇ›³ 2J$ff8920f9-8506-4f05-9f69-62ee5c40289a
+ƒ	java:S125="<This block of commented-out lines of code should be removed.(ù¨³Šøÿÿÿÿ8óÇ›³ 2J$8a215ab0-dba1-4533-b64e-334005c5253d
 •
-java:S1128"RRemove this unused import 'com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto'.(üöþœ8üÇ›³ 2J$6d8ab224-e7a9-4e17-87c3-b97395f08ea8
+java:S1128"RRemove this unused import 'com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto'.(üöþœ8üÇ›³ 2J$2d59f78b-541b-4442-94d4-d05bd4a0a0e6
 ~
-java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8ýÇ›³ 2J$a937d27e-4bf1-40fe-99bc-d1f86834ac17
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8ýÇ›³ 2J$24890896-66a4-407a-92de-a63d43559aac
 p
-java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8ÿÇ›³ 2J$4b0f0967-50ef-4d18-9ea0-2a8bd7e08480
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8ÿÇ›³ 2J$f87eb013-c3eb-407b-bc8c-fb973f8819a1
 |
-java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ÿÇ›³ 2J$5a5174fc-cc5d-4542-90df-c5723319b65f
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ÿÇ›³ 2J$9ce4d076-bc46-4eea-bb89-60c6c6679304
