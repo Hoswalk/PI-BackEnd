@@ -177,6 +177,4 @@ public class AdminService implements IAdminService {
         LOGGER.info("Lista de usuarios registrados: {}", JsonPrinter.toString(usuarioSalidaDto));
         return usuarioSalidaDto;
     }
-
-
 }

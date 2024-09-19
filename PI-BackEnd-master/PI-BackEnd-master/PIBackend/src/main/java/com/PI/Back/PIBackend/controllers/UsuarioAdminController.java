@@ -58,8 +58,8 @@ public class UsuarioAdminController {
         return ResponseEntity.ok(instrumentoActualizado);
     }
 
-    @DeleteMapping("/instrumento/eliminar")
-    public ResponseEntity<?> eliminarIntrumento(@RequestParam Long id) throws ResourceNotFoundException {
+    @DeleteMapping("/instrumento/eliminar/{id}")
+    public ResponseEntity<?> eliminarIntrumento(@PathVariable Long id) throws ResourceNotFoundException {
         adminService.eliminarInstrumento(id);
         return new ResponseEntity<>("Instrumento eliminado correctamente", HttpStatus.NO_CONTENT);
     }
