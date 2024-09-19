@@ -1,8 +1,8 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”À8ú¾Ù·Ÿ2J$78259425-7c9e-4b23-9635-a85bb86e22ff
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”À8ú¾Ù·Ÿ2J$ba227802-8962-442c-98fe-b8c8bf91355f
 o
-java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68ÃúöÕ 2J$b4adc0c9-e12a-4158-a7e9-af4b54bc505f
+java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68ÃúöÕ 2J$79bce1dc-d34f-48fd-a516-e8915831f903
 w
-java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8ÃúöÕ 2J$47dcc1ab-3128-450e-9902-5b9562f064f5
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8ÃúöÕ 2J$922b16dc-2a2f-470c-a048-aa3aef98068c
 ›
-java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8ÃúöÕ 2J$7b310130-419c-4f83-a9fc-e5fd80b6942c
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8ÃúöÕ 2J$01978c4f-72da-4018-8f76-d805d2e141da
