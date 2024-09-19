@@ -22,9 +22,6 @@ import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestPart;
-import org.springframework.web.multipart.MultipartFile;
-
 import java.lang.module.ResolutionException;
 import java.util.List;
 
@@ -57,7 +54,7 @@ public class AdminService implements IAdminService {
     }
 
     @Override
-    @Secured("ROLE_ADMIN")
+    //@Secured("ROLE_ADMIN")
     public List<InstrumentoSalidaDto> listarInstrumentos() {
 
         List<InstrumentoSalidaDto> instrumentoSalidaDto = instrumentoRepository.findAll()
