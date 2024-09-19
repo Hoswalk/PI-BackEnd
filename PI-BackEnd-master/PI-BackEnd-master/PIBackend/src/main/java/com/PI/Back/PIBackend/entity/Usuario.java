@@ -19,7 +19,9 @@ public class Usuario implements UserDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "idUsuario")
+
+
+    // @Column(name = "idUsuario")
     private long id;
     private String nombre;
     private String apellido;
