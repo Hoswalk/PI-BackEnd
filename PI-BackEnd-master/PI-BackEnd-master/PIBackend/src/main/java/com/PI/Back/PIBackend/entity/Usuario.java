@@ -22,7 +22,7 @@ public class Usuario implements UserDetails {
 
 
     // @Column(name = "idUsuario")
-    private long idUsuario;
+    private long id;
     private String nombre;
     private String apellido;
     private String email;
