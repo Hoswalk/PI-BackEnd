@@ -6,8 +6,6 @@ import lombok.*;
 @Entity
 @Table(name = "caracteristicas")
 @Builder
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -15,9 +13,9 @@ public class Caracteristica{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long idCaracteristica;
+    private long id;
     private String nombre;
-    private String logo;
+    private String icono;
     @ManyToOne
     @JoinColumn(name = "idInstrumento")
     private Instrumento instrumento;

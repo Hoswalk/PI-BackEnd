@@ -87,7 +87,7 @@ public class UsuarioAdminController {
     }
 
     @PostMapping("/instrumento/registrarCaracteristica")
-    public ResponseEntity<CaracteristicaSalidaDto> registrarCaracteristica(@RequestBody @Valid CaracteristicaEntradaDto caracteristica) throws ResourceNotFoundException {
+    public ResponseEntity<CaracteristicaSalidaDto> registrarCaracteristica(@RequestBody CaracteristicaEntradaDto caracteristica) throws ResourceNotFoundException {
         return new ResponseEntity<>(caracteristicaService.registrarCaracteristica(caracteristica), HttpStatus.CREATED);
     }
 

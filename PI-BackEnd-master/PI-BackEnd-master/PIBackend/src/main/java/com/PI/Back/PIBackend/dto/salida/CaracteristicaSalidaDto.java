@@ -4,14 +4,12 @@ import lombok.*;
 
 
 @Data
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 
 public class CaracteristicaSalidaDto {
 
-    private Long idCaracteristica;
+    private Long id;
     private String nombre;
     private String icono;
     private InstrumentoSalidaDto instrumentoSalidaDto;
