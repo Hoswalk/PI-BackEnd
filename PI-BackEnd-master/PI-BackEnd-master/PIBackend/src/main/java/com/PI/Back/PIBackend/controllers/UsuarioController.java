@@ -52,6 +52,12 @@ public class UsuarioController {
         return ResponseEntity.ok(resultado);
     }
 
+    //Pruebas
+    @GetMapping("/buscarUsuarioPorId/{id}")
+    public ResponseEntity<UsuarioSalidaDto> buscarUsuarioPorId(@PathVariable Long id){
+        return new ResponseEntity<>(usuarioService.buscarUsuarioPorId(id), HttpStatus.OK);
+    }
+
     @PutMapping("/modificarUsuario/{id}")
     public ResponseEntity<UsuarioSalidaDto> modificarUsuario(@RequestBody UsuarioEntradaDto usuario, @PathVariable Long id) throws ResourceNotFoundException {
         return new ResponseEntity<>(usuarioService.modificarUsuario(usuario, id), HttpStatus.OK);

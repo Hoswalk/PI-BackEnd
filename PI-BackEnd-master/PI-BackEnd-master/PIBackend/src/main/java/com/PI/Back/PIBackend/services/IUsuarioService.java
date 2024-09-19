@@ -11,5 +11,7 @@ public interface IUsuarioService {
 
     Boolean devolverInstrumento(InstrumentoSalidaDto instrumentoSalidaDto);
 
+    UsuarioSalidaDto buscarUsuarioPorId(Long id);
+
     UsuarioSalidaDto modificarUsuario(UsuarioEntradaDto usuarioEntradaDto, Long id) throws ResourceNotFoundException;
 }

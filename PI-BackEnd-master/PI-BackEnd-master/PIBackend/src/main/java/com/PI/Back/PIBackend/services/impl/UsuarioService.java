@@ -9,6 +9,7 @@ import com.PI.Back.PIBackend.exceptions.ResourceNotFoundException;
 import com.PI.Back.PIBackend.repository.InstrumentoRepository;
 import com.PI.Back.PIBackend.repository.UsuarioRepository;
 import com.PI.Back.PIBackend.services.IUsuarioService;
+import com.PI.Back.PIBackend.utils.JsonPrinter;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
@@ -42,6 +43,21 @@ public class UsuarioService implements IUsuarioService {
     @Override
     public Boolean devolverInstrumento(InstrumentoSalidaDto instrumentoSalidaDto) {
         return null;
+    }
+
+    //Agregado para pruebas
+    @Override
+    public UsuarioSalidaDto buscarUsuarioPorId(Long id) {
+
+        Usuario usuarioBuscado = usuarioRepository.findById(id).orElse(null);
+        UsuarioSalidaDto usuarioEncontrado = null;
+
+        if (usuarioBuscado != null){
+            usuarioEncontrado = modelMapper.map(usuarioBuscado, UsuarioSalidaDto.class);
+            LOGGER.info("Usuario encontrado: {}", JsonPrinter.toString(usuarioEncontrado));
+        } else LOGGER.error("Usuario no encontrado: {}", JsonPrinter.toString(usuarioBuscado));
+
+        return usuarioEncontrado;
     }
 
     @Override

@@ -1,15 +1,15 @@
 
 l
-java:S2629B"$Invoke method(s) only conditionally.(ÝŠºØûÿÿÿÿ8¥ðÈ¯ 2J$c8baa6d3-7eb3-4c8d-8cc1-e2f9bbb4414b
+java:S2629B"$Invoke method(s) only conditionally.(ÝŠºØûÿÿÿÿ8¥ðÈ¯ 2J$e7b3b661-6dd0-45ab-87f5-21a40e6586fb
 l
-java:S2629O"$Invoke method(s) only conditionally.(Ó¬æÈúÿÿÿÿ8¦ðÈ¯ 2J$b0159282-4440-43b1-b003-6f34b9a17733
+java:S2629O"$Invoke method(s) only conditionally.(Ó¬æÈúÿÿÿÿ8¦ðÈ¯ 2J$c8097afd-23fb-41da-93c8-971ca43b305d
 l
-java:S2629P"$Invoke method(s) only conditionally.(ÒøÊ‘úÿÿÿÿ8¦ðÈ¯ 2J$cecd01f7-5fa8-4be1-9306-9c1dcfb76fcc
+java:S2629P"$Invoke method(s) only conditionally.(ÒøÊ‘úÿÿÿÿ8¦ðÈ¯ 2J$e497a68e-94c1-4366-80d5-9636693864bc
 m
-java:S2629®"$Invoke method(s) only conditionally.(¢þ¦æúÿÿÿÿ8¦ðÈ¯ 2J$6ad8646e-869f-42b8-9e63-80c4380d25df
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ýà¾w8§ðÈ¯ 2J$589aecc4-3fed-4c38-913c-e9ed141d86a3
-˜	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÄí·øÿÿÿÿ8·ðÈ¯ 2J$fa25c131-b6ee-42c5-989e-91d6dc700cef
+java:S2629®"$Invoke method(s) only conditionally.(¢þ¦æúÿÿÿÿ8¦ðÈ¯ 2J$10487b33-36ea-4fd9-9135-b462ba2acc5f
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ýà¾w8§ðÈ¯ 2J$29fa464a-a21c-4b6b-9a39-b3634d95a763
+˜	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÄí·øÿÿÿÿ8·ðÈ¯ 2J$7f7b3ad2-4a2b-49c7-a683-1cebb9806415
 …
-java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ðÈ¯ 2J$d2cdaabf-9b88-4a1c-b64d-f0e3b37dca2e
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ðÈ¯ 2J$4abbd707-fbd5-4bc6-9bdf-ebb7e4a097c8
 …
-java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ðÈ¯ 2J$4a5d685f-6a4c-4deb-a654-18288248844a
+java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄÞ8¸ðÈ¯ 2J$9d3ce74f-6af2-46ab-aac1-fec7d2e3f5d4

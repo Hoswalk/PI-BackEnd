@@ -1,8 +1,2 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”À8ú¾Ù·Ÿ2J$ba227802-8962-442c-98fe-b8c8bf91355f
-o
-java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®68ÃúöÕ 2J$79bce1dc-d34f-48fd-a516-e8915831f903
-w
-java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8ÃúöÕ 2J$922b16dc-2a2f-470c-a048-aa3aef98068c
-›
-java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8ÃúöÕ 2J$01978c4f-72da-4018-8f76-d805d2e141da
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îï”À8¯¡İß 2J$bba6c2b6-d205-49f9-a43f-fe6e0fc2c63d
