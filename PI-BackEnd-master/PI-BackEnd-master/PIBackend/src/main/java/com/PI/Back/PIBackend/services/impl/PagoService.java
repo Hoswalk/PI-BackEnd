@@ -54,7 +54,7 @@ public class PagoService implements IPagoService {
     @Secured("ROLE_USUARIO")
     public PagoSalidaDto procesarPago(PagoEntradaDto pagoEntradaDto) {
 
-        LOGGER.info("Procesando pago para alquilerId: {}", pagoEntradaDto.getInstrumentoId());
+        LOGGER.info("Procesando pago para intrumentoId: {}", pagoEntradaDto.getInstrumentoId());
 
         //COMENTADO PARA PRUEBA
         //Alquiler alquiler = alquilerRepository.findById(pagoEntradaDto.getAlquilerId())
@@ -67,7 +67,7 @@ public class PagoService implements IPagoService {
         //Verifiacion de disponibilidad
 
         if(!alquilerService.instrumentoDisponible(instrumento.getId(), pagoEntradaDto.getFechaInicio(), pagoEntradaDto.getFechaFin())){
-            throw new RuntimeException("El insturmento no esta disponible en la fecha seleccionada.");
+            throw new RuntimeException("El instrumento no esta disponible en la fecha seleccionada.");
         }
 
         //Creando un alquiler en db

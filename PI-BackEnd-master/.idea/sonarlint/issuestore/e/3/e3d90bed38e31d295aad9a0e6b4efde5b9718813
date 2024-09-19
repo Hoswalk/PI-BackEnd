@@ -1,25 +1,25 @@
 
-b	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(ö†æï8ÚÇ›³ 2
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8İÇ›³ 2
-r	java:S116!"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‡Î€ıÿÿÿÿ8íÇ›³ 2
-_
-java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄŞ8íÇ›³ 2
-_
-java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞ8íÇ›³ 2
-_
-java:S6813)"BRemove this field injection and use constructor injection instead.(êæÄŞ8íÇ›³ 2
-_
-java:S6813,"BRemove this field injection and use constructor injection instead.(êæÄŞ8íÇ›³ 2
-_
-java:S6813/"BRemove this field injection and use constructor injection instead.(êæÄŞ8îÇ›³ 2
-_
-java:S68132"BRemove this field injection and use constructor injection instead.(êæÄŞ8îÇ›³ 2
-]	java:S125="<This block of commented-out lines of code should be removed.(ù¨³Šøÿÿÿÿ8óÇ›³ 2
-o
-java:S1128"RRemove this unused import 'com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto'.(üöşœ8üÇ›³ 2
-X
-java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8ıÇ›³ 2
-J
-java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8ÿÇ›³ 2
-V
-java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ÿÇ›³ 2
+ˆ	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(¢©«8ÚÇ›³ 2J$1f72f9e0-f69c-49d5-b3c7-e93c0298ea32
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8İÇ›³ 2J$68eb142b-a96b-40a2-b4db-72194b71cbd5
+˜	java:S116!"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‡Î€ıÿÿÿÿ8íÇ›³ 2J$d47c6020-9ae6-449c-ac4c-c44107bcb21d
+…
+java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄŞ8íÇ›³ 2J$9fd641b0-509e-48c7-9414-53adc8f19ced
+…
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞ8íÇ›³ 2J$1e5b003e-3b6b-4d7e-b9e0-b87e3f75f01a
+…
+java:S6813)"BRemove this field injection and use constructor injection instead.(êæÄŞ8íÇ›³ 2J$f2b3b0c6-e374-4aad-8f67-1a8d54534434
+…
+java:S6813,"BRemove this field injection and use constructor injection instead.(êæÄŞ8íÇ›³ 2J$1156609f-cfc3-4f89-b36a-726833ce54fb
+…
+java:S6813/"BRemove this field injection and use constructor injection instead.(êæÄŞ8îÇ›³ 2J$f85bf041-679a-47ef-b5d8-bb6ad1754c66
+…
+java:S68132"BRemove this field injection and use constructor injection instead.(êæÄŞ8îÇ›³ 2J$9dc0dfdf-f416-4e14-980c-2b1d0a991a76
+ƒ	java:S125="<This block of commented-out lines of code should be removed.(ù¨³Šøÿÿÿÿ8óÇ›³ 2J$dd71c808-b200-4683-a180-8a2906f514e7
+•
+java:S1128"RRemove this unused import 'com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto'.(üöşœ8üÇ›³ 2J$7a0db0e2-2014-41cd-887d-6b9ad381c4a8
+~
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8ıÇ›³ 2J$ae36b475-efe2-4654-9057-24648374fbba
+p
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8ÿÇ›³ 2J$61f79770-0d83-4649-959c-4bd87de3208b
+|
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ÿÇ›³ 2J$6df11c54-e233-4715-bcc3-f3c681a28400
