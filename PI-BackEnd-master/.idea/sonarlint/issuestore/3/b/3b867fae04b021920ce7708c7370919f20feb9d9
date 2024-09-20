@@ -1,0 +1,33 @@
+
+ˆ	java:S112U"FDefine and throw a dedicated exception instead of using a generic one.(¢©«8ƒÛ²†¡2J$7f7a89ee-4bed-438b-aef7-03621c09fbe2
+	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(ÙÏÖùÿÿÿÿ8ïÿú†¡2J$46578b02-1116-4b3e-9d2a-f1d635a4183c
+m
+java:S2629¢"$Invoke method(s) only conditionally.(µ·íÉşÿÿÿÿ8†Û²†¡2J$a6a479f6-a53d-47a0-b646-91f62a2b2a1e
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾w8‡Û²†¡2J$1cf0f972-38df-4c92-a64e-def71f311f71
+˜	java:S116("QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã‡Î€ıÿÿÿÿ8•Û²†¡2J$8ff8619b-f60c-4792-ad4f-6fbb9cc684ac
+…
+java:S6813*"BRemove this field injection and use constructor injection instead.(êæÄŞ8–Û²†¡2J$4e3570c0-d400-4d9d-a797-d2dbfaf5bf54
+…
+java:S6813-"BRemove this field injection and use constructor injection instead.(êæÄŞ8–Û²†¡2J$937e8227-b1a3-4787-9991-a4839d568c37
+…
+java:S68130"BRemove this field injection and use constructor injection instead.(êæÄŞ8–Û²†¡2J$9b1dee52-02a1-4d08-ad95-8445853ae469
+…
+java:S68133"BRemove this field injection and use constructor injection instead.(êæÄŞ8–Û²†¡2J$f6c0e8dc-2390-4f3a-8f76-aae44af50778
+…
+java:S68136"BRemove this field injection and use constructor injection instead.(êæÄŞ8–Û²†¡2J$ea93b6c4-5213-4f19-a346-5705867f3510
+…
+java:S68139"BRemove this field injection and use constructor injection instead.(êæÄŞ8–Û²†¡2J$2cdfafec-56ff-4d0c-a954-80219544add8
+ƒ	java:S125E"<This block of commented-out lines of code should be removed.(ù¨³Šøÿÿÿÿ8™Û²†¡2J$f215e3d6-a397-4f8e-bee6-0de7bb4d15da
+–
+java:S6204¬"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8¡Û²†¡2J$97c5367b-76b5-4678-a0f3-acf8894d905c
+•
+java:S1128"RRemove this unused import 'com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto'.(üöşœ8ãß™ˆ¡2J$7d1c44b2-f21f-4dfe-9676-940bb6408747
+š
+java:S1128
+"WRemove this unused import 'com.PI.Back.PIBackend.exceptions.ResourceNotFoundException'.(êÍ€›8ãß™ˆ¡2J$43b7869e-fad9-4427-88b2-238369319efd
+~
+java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ8ãß™ˆ¡2J$d71c92c9-2385-4de0-8201-2ff809d72eca
+p
+java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8ãß™ˆ¡2J$364b20aa-a8b9-4f92-9474-8b9f3cf60a7a
+|
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ãß™ˆ¡2J$8325938e-9190-40e6-949a-85bc2bf0a241

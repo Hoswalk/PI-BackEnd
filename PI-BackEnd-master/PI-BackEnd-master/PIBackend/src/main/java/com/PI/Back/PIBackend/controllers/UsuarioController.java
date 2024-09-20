@@ -6,12 +6,14 @@ import com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.PagoSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.UsuarioSalidaDto;
 import com.PI.Back.PIBackend.entity.Instrumento;
+import com.PI.Back.PIBackend.entity.Pago;
 import com.PI.Back.PIBackend.exceptions.ResourceNotFoundException;
 import com.PI.Back.PIBackend.services.impl.AdminService;
 import com.PI.Back.PIBackend.services.impl.InstrumentoService;
 import com.PI.Back.PIBackend.services.impl.PagoService;
 import com.PI.Back.PIBackend.services.impl.UsuarioService;
 import lombok.RequiredArgsConstructor;
+import org.apache.coyote.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,6 +41,15 @@ public class UsuarioController {
     @PostMapping("/pago")
     public ResponseEntity<PagoSalidaDto> procesarPago(@RequestBody PagoEntradaDto pagoEntradaDto){
         return new ResponseEntity<>(pagoService.procesarPago(pagoEntradaDto), HttpStatus.OK);
+    }
+
+    @GetMapping("/listaPagosDeUsuario/{id}")
+    public ResponseEntity<List<PagoSalidaDto>> listarPagosPorUsuario(@PathVariable Long id){
+        List<PagoSalidaDto> pagos = pagoService.listarPagosDeUsuario(id);
+        if (pagos.isEmpty()) {
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.ok(pagos);
     }
 
     @GetMapping("/instrumentos")

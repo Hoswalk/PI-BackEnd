@@ -4,11 +4,13 @@ import com.PI.Back.PIBackend.dto.entrada.CaracteristicaEntradaDto;
 import com.PI.Back.PIBackend.dto.entrada.InstrumentoEntradaDto;
 import com.PI.Back.PIBackend.dto.salida.CaracteristicaSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto;
+import com.PI.Back.PIBackend.dto.salida.PagoSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.UsuarioSalidaDto;
 import com.PI.Back.PIBackend.entity.Role;
 import com.PI.Back.PIBackend.exceptions.ResourceNotFoundException;
 import com.PI.Back.PIBackend.services.impl.AdminService;
 import com.PI.Back.PIBackend.services.impl.CaracteristicaService;
+import com.PI.Back.PIBackend.services.impl.PagoService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -27,6 +29,7 @@ public class UsuarioAdminController {
 
     private final AdminService adminService;
     private final CaracteristicaService caracteristicaService;
+    private final PagoService pagoService;
 
 
     //INSTRUMENTOS
@@ -104,6 +107,11 @@ public class UsuarioAdminController {
         return new ResponseEntity<>(caracteristicaService.registrarCaracteristica(caracteristica), HttpStatus.CREATED);
     }
 
+    //PAGOS
 
+    @GetMapping("/pagos")
+    public ResponseEntity<List<PagoSalidaDto>> listarPagos(){
+        return new ResponseEntity<>(pagoService.listarPagos(), HttpStatus.OK);
+    }
 
 }

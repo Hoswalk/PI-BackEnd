@@ -1,0 +1,9 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê÷Öì
+[
+java:S1128"ERemove this unused import 'com.PI.Back.PIBackend.entity.Instrumento'.(‘´çİ
+V
+java:S1128"ARemove this unused import 'com.PI.Back.PIBackend.entity.Usuario'.(ì’Î!
+W
+java:S1128
+"ARemove this unused import 'org.springframework.cglib.core.Local'.(ÁÒû

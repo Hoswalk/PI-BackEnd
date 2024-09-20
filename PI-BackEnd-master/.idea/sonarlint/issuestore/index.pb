@@ -143,3 +143,13 @@ r
 Bsrc/main/java/com/PI/Back/PIBackend/services/IAlquilerService.java,0\e\0e516ca2e8936b296f846383a8ab7ebe463489f9
 y
 Isrc/main/java/com/PI/Back/PIBackend/repository/InstrumentoRepository.java,f\0\f0dbaaa2128ecfb0d1a62ab662f9a2cd283f2ea0
+n
+>src/main/java/com/PI/Back/PIBackend/services/IPagoService.java,1\7\172e1269136d2cc27e6081fd7dbd8a20d7251c93
+r
+Bsrc/main/java/com/PI/Back/PIBackend/services/impl/PagoService.java,3\b\3b867fae04b021920ce7708c7370919f20feb9d9
+r
+Bsrc/main/java/com/PI/Back/PIBackend/repository/PagoRepository.java,1\8\189f0c4d9b8c1d98e92111ff1cba9647818484f3
+h
+8src/main/java/com/PI/Back/PIBackend/entity/Alquiler.java,8\4\847ec3be7f0ff916bd9eef466f68793453cb2980
+s
+Csrc/main/java/com/PI/Back/PIBackend/dto/entrada/PagoEntradaDto.java,4\f\4f4b5e92984462ed4028c0b89b725b153534c0d1
