@@ -4,6 +4,7 @@ import com.PI.Back.PIBackend.dto.entrada.InstrumentoEntradaDto;
 import com.PI.Back.PIBackend.dto.salida.InstrumentoSalidaDto;
 import com.PI.Back.PIBackend.dto.salida.UsuarioSalidaDto;
 import com.PI.Back.PIBackend.entity.Role;
+import com.PI.Back.PIBackend.entity.Usuario;
 import com.PI.Back.PIBackend.exceptions.ResourceNotFoundException;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -21,7 +22,7 @@ public interface IAdminService {
 
 
     //USUARIO ADMIN
-    void asignarRole(Long id, Role newRole) throws ResourceNotFoundException;
+    Usuario asignarRole(Long id, String role) throws ResourceNotFoundException;
     UsuarioSalidaDto buscarUsuarioPorId(Long id);
     void eliminarUsuario(Long id) throws ResourceNotFoundException;
     List<UsuarioSalidaDto> listarUsuarios();

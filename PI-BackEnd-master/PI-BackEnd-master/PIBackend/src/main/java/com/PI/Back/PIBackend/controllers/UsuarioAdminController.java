@@ -70,9 +70,9 @@ public class UsuarioAdminController {
     //USUARIO
 
     @PutMapping("/modificarRole/{id}/role")
-    public ResponseEntity<?> asignarRole(@PathVariable Long id, @RequestBody Role newRole) throws ResourceNotFoundException {
+    public ResponseEntity<?> asignarRole(@PathVariable Long id, @RequestBody String role) throws ResourceNotFoundException {
         //Role role = Role.valueOf(String.valueOf(newRole));
-        adminService.asignarRole(id, newRole);
+        adminService.asignarRole(id, role);
         return ResponseEntity.ok("Se ha asignado el rol correctamente");
     }
 
@@ -89,7 +89,7 @@ public class UsuarioAdminController {
     @DeleteMapping("/eliminarUsuario/{id}")
     public ResponseEntity<?> eliminarUsuarioPorId(@PathVariable Long id) throws ResourceNotFoundException {
         adminService.eliminarUsuario(id);
-        return new ResponseEntity<>("Usuario eliminado correctamente: " + id, HttpStatus.NO_CONTENT);
+        return new ResponseEntity<>("Usuario eliminado correctamente: ", HttpStatus.NO_CONTENT);
     }
 
 

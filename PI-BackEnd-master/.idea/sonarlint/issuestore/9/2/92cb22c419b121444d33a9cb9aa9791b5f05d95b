@@ -1,4 +1,6 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±‰äšûÿÿÿÿ8ãÎª¡2
-n
-java:S1128"LRemove this unused import 'org.springframework.web.multipart.MultipartFile'.(ôŸœÿÿÿÿÿ8èÎª¡2
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±‰äšûÿÿÿÿ8ãÎª¡2J$e7ce627d-1529-442d-a68c-d96718568b79
+Z
+java:S1128">Remove this unused import 'com.PI.Back.PIBackend.entity.Role'.(ñ˜š>8£Ä¦ƒ¡2
+”
+java:S1128	"LRemove this unused import 'org.springframework.web.multipart.MultipartFile'.(ôŸœÿÿÿÿÿ8èÎª¡2J$1baa2d45-4473-400d-b8f4-0c7e4ddd045b

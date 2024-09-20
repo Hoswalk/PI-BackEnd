@@ -141,23 +141,20 @@ public class AdminService implements IAdminService {
     @Override
     @Transactional
     @Secured("ROLE_ADMIN")
-    public void asignarRole(Long id, Role newRole) throws ResourceNotFoundException {
-        //Obtener email
+    public Usuario asignarRole(Long id, String role) throws ResourceNotFoundException {
         Usuario usuario = usuarioRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("Usuario no encontrado"));
+                .orElseThrow(() -> new ResourceNotFoundException("Usuario no encontrado"));
 
-        //Verificar administrador
-
-        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        Usuario currentUser = (Usuario) authentication.getPrincipal();
-
-        if (!currentUser.getRole().equals(Role.ADMIN)){
-            throw new SecurityException("Este usuario no tiene los permisos para asignar un nuevo rol");
+        // Convertir la cadena de rol a un enum o el formato que estés usando en tu sistema.
+        if (role.equalsIgnoreCase("ADMIN")) {
+            usuario.setRole(Role.ADMIN); // Asegúrate de que Role sea un enum o clase válida en tu proyecto
+        } else if (role.equalsIgnoreCase("USUARIO")) {
+            usuario.setRole(Role.USUARIO);
+        } else {
+            throw new IllegalArgumentException("Rol no válido: " + role);
         }
 
-        //Asignar un nuevo rol
-        usuario.setRole(newRole);
-        usuarioRepository.save(usuario);
+        return usuarioRepository.save(usuario);
     }
 
     @Override
@@ -176,7 +173,7 @@ public class AdminService implements IAdminService {
     public void eliminarUsuario(Long id) throws ResourceNotFoundException {
         if (buscarUsuarioPorId(id) != null){
             usuarioRepository.deleteById(id);
-            LOGGER.warn("Se ha eliminado el instrumento con id: {}", + id);
+            LOGGER.warn("Se ha eliminado el usuario con id: {}", + id);
         } else throw new ResourceNotFoundException("No se ha encontrado ningun usuario con el ID: " + id);
     }
 
