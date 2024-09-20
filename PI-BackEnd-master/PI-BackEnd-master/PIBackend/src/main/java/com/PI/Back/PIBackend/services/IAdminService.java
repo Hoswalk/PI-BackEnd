@@ -21,6 +21,8 @@ public interface IAdminService {
 
 
     //USUARIO ADMIN
-    void asignarRole(String email, Role newRole) throws ResourceNotFoundException;
+    void asignarRole(Long id, Role newRole) throws ResourceNotFoundException;
+    UsuarioSalidaDto buscarUsuarioPorId(Long id);
+    void eliminarUsuario(Long id) throws ResourceNotFoundException;
     List<UsuarioSalidaDto> listarUsuarios();
 }

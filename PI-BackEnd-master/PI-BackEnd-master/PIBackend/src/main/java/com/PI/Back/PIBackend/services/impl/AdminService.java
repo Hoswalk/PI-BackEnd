@@ -141,9 +141,9 @@ public class AdminService implements IAdminService {
     @Override
     @Transactional
     @Secured("ROLE_ADMIN")
-    public void asignarRole(String email, Role newRole) throws ResourceNotFoundException {
+    public void asignarRole(Long id, Role newRole) throws ResourceNotFoundException {
         //Obtener email
-        Usuario usuario = usuarioRepository.findUsuarioByEmail(email)
+        Usuario usuario = usuarioRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Usuario no encontrado"));
 
         //Verificar administrador
@@ -158,6 +158,26 @@ public class AdminService implements IAdminService {
         //Asignar un nuevo rol
         usuario.setRole(newRole);
         usuarioRepository.save(usuario);
+    }
+
+    @Override
+    public UsuarioSalidaDto buscarUsuarioPorId(Long id) {
+        Usuario usuarioBuscado = usuarioRepository.findById(id).orElse(null);
+        UsuarioSalidaDto usuarioEncontrado = null;
+
+        if (usuarioBuscado != null){
+            usuarioEncontrado = modelMapper.map(usuarioBuscado, UsuarioSalidaDto.class);
+            LOGGER.info("Usuario encontrado: {}", JsonPrinter.toString(usuarioEncontrado));
+        } else LOGGER.error("Usuario no encontrado: {}", JsonPrinter.toString(usuarioBuscado));
+        return usuarioEncontrado;
+    }
+
+    @Override
+    public void eliminarUsuario(Long id) throws ResourceNotFoundException {
+        if (buscarUsuarioPorId(id) != null){
+            usuarioRepository.deleteById(id);
+            LOGGER.warn("Se ha eliminado el instrumento con id: {}", + id);
+        } else throw new ResourceNotFoundException("No se ha encontrado ningun usuario con el ID: " + id);
     }
 
     @Override

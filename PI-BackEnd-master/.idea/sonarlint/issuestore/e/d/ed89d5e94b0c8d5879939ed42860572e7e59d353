@@ -1,0 +1,6 @@
+
+F
+java:S2629,"$Invoke method(s) only conditionally.(“—×ÿÿÿÿÿ8ÊÒ¨Õ 2
+”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İà¾wJ$e90033f4-ef7a-4e3e-b58e-0584ac884f1d
+r	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ô÷éûÿÿÿÿ8°Ó¨Õ 2
+]	java:S125="<This block of commented-out lines of code should be removed.(Ş”Õüÿÿÿÿ8ÏÓ¨Õ 2

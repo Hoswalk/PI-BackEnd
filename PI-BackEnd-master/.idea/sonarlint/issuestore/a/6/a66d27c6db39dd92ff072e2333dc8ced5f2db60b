@@ -1,0 +1,12 @@
+
+ú	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—æ‘≈8Ωﬂ ·†2J$3db6487a-2ef5-4e05-a843-8100afd7c826
+}	java:S125"<This block of commented-out lines of code should be removed.(ªºì~8⁄ﬂ ·†2J$8b0fb552-6da5-4de7-9863-1bdc4a2acfc2
+ï
+java:S6204""RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(„§£í8›ﬂ ·†2J$d4480b2a-b2bd-4f17-b0b5-f145488ff1ef
+~	java:S125,"<This block of commented-out lines of code should be removed.(çËÛ¿8ﬂﬂ ·†2J$8eb01a03-9d12-4d73-bdc4-b0381d14a2b3
+}	java:S1253"<This block of commented-out lines of code should be removed.(≠ü˝]8‡ﬂ ·†2J$c8c47c25-5eef-4610-bf44-b705772e2601
+ß
+java:S1128
+"_Remove this unused import 'org.springframework.security.core.authority.SimpleGrantedAuthority'.(ñ†ãÃ˚ˇˇˇˇ8Êﬂ ·†2J$3d8b9070-d4c0-4c30-bc64-91cdfa02b8b2
+í
+java:S1128"ORemove this unused import 'org.springframework.security.core.userdetails.User'.(ñùƒÄ8Êﬂ ·†2J$d9826db0-d6a4-456b-9d85-df578b2e73b5

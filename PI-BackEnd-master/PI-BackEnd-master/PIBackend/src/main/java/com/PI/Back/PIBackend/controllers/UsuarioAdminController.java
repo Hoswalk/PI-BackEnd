@@ -69,16 +69,27 @@ public class UsuarioAdminController {
 
     //USUARIO
 
-    @PutMapping("/modificarRole/{email}/role")
-    public ResponseEntity<?> asignarRole(@PathVariable String email, @RequestBody Role newRole) throws ResourceNotFoundException {
+    @PutMapping("/modificarRole/{id}/role")
+    public ResponseEntity<?> asignarRole(@PathVariable Long id, @RequestBody Role newRole) throws ResourceNotFoundException {
         //Role role = Role.valueOf(String.valueOf(newRole));
-        adminService.asignarRole(email, newRole);
+        adminService.asignarRole(id, newRole);
         return ResponseEntity.ok("Se ha asignado el rol correctamente");
     }
 
     @GetMapping("/usuarios")
     public ResponseEntity<List<UsuarioSalidaDto>> listarUsuarios(){
         return new ResponseEntity<>(adminService.listarUsuarios(), HttpStatus.OK);
+    }
+
+    @GetMapping("/buscarUsuario/{id}")
+    public ResponseEntity<UsuarioSalidaDto> buscarUsuarioPorId(@PathVariable Long id){
+        return new ResponseEntity<>(adminService.buscarUsuarioPorId(id), HttpStatus.OK);
+    }
+
+    @DeleteMapping("/eliminarUsuario/{id}")
+    public ResponseEntity<?> eliminarUsuarioPorId(@PathVariable Long id) throws ResourceNotFoundException {
+        adminService.eliminarUsuario(id);
+        return new ResponseEntity<>("Usuario eliminado correctamente: " + id, HttpStatus.NO_CONTENT);
     }
 
 
